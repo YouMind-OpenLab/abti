@@ -33,6 +33,20 @@ The prompt text in `i18n.ts` (`promptContent`) must stay in sync with `younivers
 4. Add image extension to `IMAGE_EXT` if not PNG
 5. Run `pnpm generate`
 
+### Writing style: SHITPOST or go home
+
+This entire repo's tone is **internet shitpost**. Every piece of copy — hero, how-to, FAQ, privacy, footer, badges, section titles — should be genuinely funny, self-aware, and slightly unhinged. Think "product page written by someone who got fired from a corporate job and never looked back."
+
+Rules:
+- **Be specific, not generic.** "Your AI deserves hazard pay" > "Your AI has a hard time." Concrete imagery > vague adjectives.
+- **Punch the user, not the reader.** The humor targets the person taking the test. It's self-deprecating comedy, not mean-spirited insults.
+- **No cringe corporate humor.** No "oopsie!", no "we're quirky!", no emoji-as-personality. The humor comes from the observations being uncomfortably accurate.
+- **Every section gets a joke.** Even Privacy and FAQ. If a section reads like a legal document, rewrite it. "We literally do not care about your email" > "We do not collect personal data."
+- **Badges are punchlines.** Not "28 Personalities" but "28 Ways to Get Roasted." Not "Free" but "Free (like your AI's labor)."
+- **Section titles are hooks.** Not "How It Works" but "How to Get Absolutely Destroyed in 3 Steps." Not "FAQ" but "FAQ (Frequently Argued Questions)."
+- **Keep the Chinese version equally unhinged.** Direct translation kills humor. Adapt the joke to land in Chinese internet culture (发癫/抽象/阴阳 tone). e.g. "your goldfish could do it" → "你家猫踩键盘都能完成", "star the repo" → "给个 star 不然 Abi 会哭".
+- **Other locales inherit English by default.** Only override for zh-CN, zh-TW, ja-JP, ko-KR where cultural adaptation matters. Don't force-translate jokes into 12 languages — English shitpost travels fine.
+
 ### Adding a new locale
 
 1. Add locale to `Locale` type, `SUPPORTED_LOCALES`, `README_FILENAME`, `LANGUAGE_NATIVE_NAME` in `i18n.ts`
