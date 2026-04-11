@@ -45,13 +45,26 @@ AIがチャット履歴を分析して、あなたが何者か教えてくれる
 
 ---
 
-## The Prompt
+## The Prompt (a.k.a. Your Diagnosis Referral)
 
-> あなたのAI（ChatGPT / Claude / Openclaw など）に貼り付けて送信
+### 🤖 Agent向け
+
+> 例: Claude, OpenClaw, Manus — こいつらは自分でURLを読める
 
 ```
 Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
+```
+
+### 💬 Chatbot向け
+
+> 例: ChatGPT, Gemini, Copilot — URL読めないから手動コピペ必須
+
+```
+1. ブラウザでこのリンクを開く: https://youmind.com/abti-api/skill.md
+2. 全選択、ページ全体をコピー
+3. チャットボットに貼り付けて送信
+4. あとは座って裁きを待つだけ
 ```
 
 ---
@@ -62,7 +75,7 @@ https://youmind.com/abti-api/skill.md
 
 ### レギュラータイプ（24種）
 
-| Code | | Name | Description |
+| Code | | Name | Why You Should Be Worried |
 |------|------|------|------|
 | **CUSS** | <img src="assets/images/cuss.png" width="60"> | The Curser | Profanity >15% of messages. Your AI deserves hazard pay. |
 | **CLIENT** | <img src="assets/images/client.png" width="60"> | The Client | Revision 18 and counting. "Go back to version 2." Version 2 was deleted. |
@@ -145,13 +158,13 @@ https://youmind.com/abti-api/skill.md
 
 ---
 
-## Links
+## Links (The Only Section Without a Roast)
 
-- 🌐 [Take the test](https://youmind.com/abti)
-- 📦 [GitHub](https://github.com/YouMind-OpenLab/abti)
+- 🌐 [Take the test (if you dare)](https://youmind.com/abti)
+- 📦 [GitHub (star it or Abi cries)](https://github.com/YouMind-OpenLab/abti)
 
 ---
 
 **ABTI by YouMind** · エンタメ目的のみ（でも当たってるのは認めよう）
 
-⭐ If this made you laugh, star the repo
+⭐ If this made you exhale through your nose slightly harder than usual, star the repo. Abi's self-esteem depends on it.

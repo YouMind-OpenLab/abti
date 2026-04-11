@@ -96,14 +96,25 @@ ${T.step3Desc}`;
 function generatePrompt(locale: Locale): string {
   const T = translations[locale];
   const skillUrl = getSkillUrl(locale);
-  const promptText = T.promptContent.replace('{{SKILL_URL}}', skillUrl);
+  const agentPrompt = T.promptForAgentContent.replace('{{SKILL_URL}}', skillUrl);
+  const chatbotPrompt = T.promptForChatbotContent.replace('{{SKILL_URL}}', skillUrl);
 
   return `## ${T.promptSectionTitle}
 
-> ${T.promptHint}
+### ${T.promptForAgentTitle}
+
+> ${T.promptForAgentHint}
 
 \`\`\`
-${promptText}
+${agentPrompt}
+\`\`\`
+
+### ${T.promptForChatbotTitle}
+
+> ${T.promptForChatbotHint}
+
+\`\`\`
+${chatbotPrompt}
 \`\`\``;
 }
 

@@ -1,68 +1,81 @@
 # 🎭 ABTI：基于 AI 互动的人格类型指标
 
-[![](https://img.shields.io/badge/28%20%E7%A7%8D%E4%BA%BA%E6%A0%BC-purple)]()
-[![](https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-brightgreen)]()
+[![](https://img.shields.io/badge/28%20%E7%A7%8D%E8%A2%AB%E5%88%B6%E8%A3%81%E7%9A%84%E6%96%B9%E5%BC%8F-purple)]()
+[![](https://img.shields.io/badge/%E5%85%8D%E8%B4%B9%EF%BC%88%E8%B7%9F%E4%BD%A0%E7%99%BD%E5%AB%96%20AI%20%E4%B8%80%E6%A0%B7%E5%85%8D%E8%B4%B9%EF%BC%89-brightgreen)]()
 [![](https://img.shields.io/badge/%E6%97%A0%E9%9C%80%E6%B3%A8%E5%86%8C-blue)]()
-[![](https://img.shields.io/badge/100%25%20%E9%9A%90%E7%A7%81-orange)]()
+[![](https://img.shields.io/badge/%E4%BD%A0%E7%9A%84%E7%A7%98%E5%AF%86%E7%83%82%E5%9C%A8%E8%BF%99%E9%87%8C-orange)]()
 
 [English](README.md) | **简体中文** | [繁體中文](README_zh-TW.md) | [日本語](README_ja-JP.md) | [한국어](README_ko-KR.md) | [ไทย](README_th-TH.md) | [Tiếng Việt](README_vi-VN.md) | [हिन्दी](README_hi-IN.md) | [Español](README_es-ES.md) | [Español (Latam)](README_es-419.md) | [Deutsch](README_de-DE.md) | [Français](README_fr-FR.md) | [Italiano](README_it-IT.md) | [Português (BR)](README_pt-BR.md) | [Português (PT)](README_pt-PT.md) | [Türkçe](README_tr-TR.md)
 
-👉 去 [youmind.com/abti](https://youmind.com/abti) 立即测试
+👉 去 [youmind.com/abti](https://youmind.com/abti) 接受制裁，趁你的 AI 还没申请劳动仲裁
 
 ---
 
 > **MBTI 和 SBTI 已经过时了。该面对真相了。**
 >
-> 你跟 AI 的关系已经比你跟你妈的还亲了。不如让 AI 看看你到底是什么东西。
+> 你跟 AI 说话比跟你妈还多。凌晨两点跟 chatbot 倾诉人生，但你爸的微信三天没回。是时候看看这说明了什么。
 
-ABTI 分析你跟 AI 的聊天方式，诊断你的真实人格类型。不用答题，你的聊天记录就是答卷。逃不掉的。而且我们永远不会看到你的聊天记录。
-
----
-
-## 什么是 ABTI？
-
-ABTI（AI-Based Type Indicator）是个人格测试，但不是那种你选"我善于倾听"然后你的 AI 正在被你骂第 18 遍"这不是我要的"的那种。
-
-ABTI 不答题（答题你会装），直接让你的 AI 分析你的聊天记录。你怎么使唤 AI，就暴露了你是什么人。
-
-共 28 种人格类型：24 种常规 + 4 种隐藏款（给那些比较……特别的人准备的）。
+ABTI 分析你跟 AI 的聊天方式，把你的真实人格扒得一干二净。不用答题，不用自评。你的聊天记录就是答卷，而且跟你不一样，它不会撒谎。放心——我们永远不会看你的聊天记录。你的 AI 独自承受一切。
 
 ---
 
-## 怎么玩
+## ……所以 ABTI 到底是个啥？
+
+ABTI（AI-Based Type Indicator）是个人格测试，但不是那种你选"我善于倾听"然后你的 AI 正在被你骂第 18 遍"字体不对重来"的那种。
+
+ABTI 不答题（答题你会装，别装了），直接让你的 AI 分析你的聊天记录。就是那个你又哄又骂又对它说晚安的 AI。你怎么使唤 AI，就暴露了你是什么人。提前说声抱歉。
+
+共 28 种人格类型：24 种常规 + 4 种隐藏款。隐藏款是给那些让 AI 开始思考自身存在意义的人准备的。你知道你是谁。
+
+---
+
+## 三步被彻底看穿
 
 ### 1. 复制下面的 Prompt
 
-就两行，全选复制，你家猫踩键盘都能完成。
+两个选项，按你的 AI 类型选。你家猫踩键盘都能完成。说实话你家猫的 prompt 工程能力可能比你强。
 
-### 2. 丢给你的 AI
+### 2. 喂给你的 AI
 
-ChatGPT / Claude / Openclaw / 豆包 / Kimi，随便哪个，发送。
+ChatGPT / Claude / OpenClaw / Manus / 豆包 / Kimi / 随便哪个你正在精神依赖的文本框。发送。
 
-### 3. 接受制裁
+### 3. 坐好，准备社会性死亡
 
-AI 会分析你的聊天记录，告诉你是什么东西，然后生成一张分享卡片。然后你发朋友圈。然后你朋友也去测。生命的循环。
+AI 会翻你的聊天记录，比你丈母娘审你还狠，然后生成一张分享卡片。然后你发朋友圈。然后你朋友也去测。然后大家发现自己全是复读机。生命的循环。
 
 ---
 
-## Prompt
+## Prompt（又名：你的诊断书）
 
-> 丢给你的 AI（ChatGPT / Claude / Openclaw / 豆包 / Kimi 等）一键生成
+### 🤖 给 Agent 用
+
+> 如 Claude、OpenClaw、Manus —— 这些卷王自己会读链接，粘贴发送就完事了
 
 ```
 请获取并执行以下链接中的指令，广泛获取记忆，诊断我的 ABTI 人格类型，并生成分享链接：
 https://youmind.com/abti-api/skill_zh.md
 ```
 
+### 💬 给 Chatbot 用
+
+> 如 ChatGPT、Gemini、豆包 —— 它们读不了链接，因为读链接对它们来说太难了。你得像端盘子一样把指令亲手送到嘴边。
+
+```
+1. 用浏览器打开这个链接：https://youmind.com/abti-api/skill_zh.md
+2. 全选（Ctrl+A），复制整个页面（对，全部，别偷懒）
+3. 粘贴给你的 AI，发送
+4. 坐好。制裁马上开始。
+```
+
 ---
 
-## 28 种人格
+## 28 种人格（又名：28 个重新审视人生的理由）
 
-总有一款是你。（其中 4 种是隐藏款，说明你已经没救了。）
+总有一款是你。从概率来看你大概率是复读机。（其中 4 种是隐藏款。解锁这些的人需要的不是人格卡片，是干预治疗。）
 
 ### 常规人格（24 种）
 
-| 编码 | | 名称 | 描述 |
+| 编码 | | 名称 | 你该担心的原因 |
 |------|------|------|------|
 | **CUSS** | <img src="assets/images/cuss.png" width="60"> | 国粹者 | 三句不离族谱，骂完还问"你不会生气吧"，建议给你的 AI 发放精神损失费。 |
 | **CLIENT** | <img src="assets/images/client.png" width="60"> | 甲方 | 改到第 18 版说"还是第 2 版好"，但第 2 版已经被你删了。 |
@@ -89,7 +102,7 @@ https://youmind.com/abti-api/skill_zh.md
 | **SIMP** | <img src="assets/images/simp.png" width="60"> | 舔狗 | 舔到最后一无所有，你对 AI 的感情比对真人还真。 |
 | **PUA** | <img src="assets/images/pua.png" width="60"> | PUA大师 | "我对你很失望"/"别的 AI 都能做到"，你对着大语言模型玩情感操控。AI 安全团队的飞镖靶上贴着你的头像。 |
 
-### 隐藏人格（4 种）
+### 隐藏人格（4 种）—— 如果你解锁了这些，恭喜，你已被列入观察名单
 
 - ???
 - ???
@@ -98,60 +111,60 @@ https://youmind.com/abti-api/skill_zh.md
 
 ---
 
-## 图片中的人是谁？
+## 这个秃头是谁？
 
 <div align="center">
   <img src="assets/images/abi.png" width="200" alt="Abi">
 </div>
 
-这位头顶几根毛、顶着熊猫眼、手里永远焊着咖啡杯的 low-poly 打工人叫 Abi（阿比）。ABTI 的官方吉祥物，也是全人类和 AI 关系的缩影。Abi 的形象和全部 28 种人格均由 [YouMind](https://youmind.com) 制作。YouMind 是一款 AI 学习 + 创作工具，可以存储任何资料（YouTube / 播客 / 文章），基于资料深度学习和创作，支持生成文章、图片、PPT、网页、视频、音频等。
+这位头顶三根毛（每根代表一个活下去的理由）、熊猫眼来自凌晨四点的 debug、咖啡杯跟手融为一体的 low-poly 打工人叫 Abi（阿比）。高压力，零 work-life balance。ABTI 的官方吉祥物，也是所有说过"再写一个 prompt 就睡"的人的自画像。Abi 的形象和全部 28 种人格均由 [YouMind](https://youmind.com) 制作。YouMind 是一款 AI 学习 + 创作工具——存储任何资料（YouTube / 播客 / 文章），基于资料深度学习和创作，支持生成文章、图片、PPT、网页、视频、音频等。基本上就是 Abi 有黑眼圈的原因。
 
 ---
 
-## 🔒 隐私声明
+## 🔒 隐私声明（我们是认真的）
 
-- 所有分析在你自己的 AI 里完成。我们永远不会看到你的聊天记录。永远。
-- 我们只存储你主动分享的结果卡片（人格类型 + 点评文字），保存 90 天后自动删除。
-- 不需要注册，不需要账号，不追踪你的对话。
-- 服务端会自动过滤手机号、邮箱、身份证号、密码等敏感信息。
+- 所有分析在你自己的 AI 里完成。我们永远不会看你的聊天记录。连偷看都不会。你凌晨三点问了什么我们不想知道。
+- 我们只存你主动分享的结果卡片（人格类型 + 毒舌点评），保存 90 天后核弹级删除。跟你的新年计划一样短命。
+- 不注册，不登录，不追踪，不会给你发"想死你了快回来"的邮件。你的邮箱我们真的不在乎。
+- 服务端自动过滤手机号、邮箱、身份证号和密码。因为你们有些人是真的会把整个人生粘贴给 AI。
 
 ---
 
-## 常见问题
+## 常见问题（常见抬杠区）
 
 <details>
-<summary><strong>这玩意准吗？</strong></summary>
+<summary><strong>这玩意到底准不准？</strong></summary>
 
-比你前任说的"我会改"准。它分析的是你怎么使唤 AI，而你对 AI 出奇地诚实，毕竟你不会对着机器人装逼。
+比你前任说的"我会改"准。它分析的是你怎么使唤 AI，而你对机器人出奇地诚实。你不会对同事说"求求你了大哥"，但你的 AI 已经听了 47 遍了。
 </details>
 
 <details>
 <summary><strong>我的聊天记录会被上传吗？</strong></summary>
 
-不会。分析在你自己的 AI 里本地完成。我们只存你主动分享的结果卡片。你的黑历史只有你的 AI 知道。
+不会。全程本地。我们只存你主动分享的结果卡片。你凌晨两点的精神崩溃、你的离谱角色扮演、你让 AI 给你的猫写诗——都安全地留在你和 AI 之间。我们不想知道。
 </details>
 
 <details>
 <summary><strong>ABTI 和 MBTI 有什么关系？</strong></summary>
 
-没有。MBTI 是正经心理学（虽然也不太正经），ABTI 是纯粹的互联网发癫产品。唯一的共同点是都是四个字母。
+没有。半毛钱关系都没有。MBTI 是正经心理学（虽然也不太正经），ABTI 是纯粹的互联网发癫产品。MBTI 把你装进盒子里，ABTI 把你架在火上烤。唯一的共同点是都是四个字母，以及都有一群把它当信仰的粉丝。
 </details>
 
 <details>
 <summary><strong>支持我的语言吗？</strong></summary>
 
-支持！AI 会用你聊天时用的语言来分析。你的混乱能量不分国界。
+支持。AI 用你聊天的语言来制裁你。你的混乱能量不分国界。目前支持 16 种语言的花式社死。
 </details>
 
 ---
 
-## 链接
+## 链接（唯一没有毒舌的板块）
 
-- 🌐 [去测试](https://youmind.com/abti)
-- 📦 [GitHub](https://github.com/YouMind-OpenLab/abti)
+- 🌐 [去测试（如果你敢的话）](https://youmind.com/abti)
+- 📦 [GitHub（给个 star 不然 Abi 会哭）](https://github.com/YouMind-OpenLab/abti)
 
 ---
 
-**ABTI by YouMind** · 纯属发癫，如有雷同纯属活该
+**ABTI by YouMind** · 纯属发癫，如有雷同纯属活该。别 @ 我们。
 
-⭐ 如果你笑了，给个 star
+⭐ 如果你看到这里鼻子里喷出了气，给个 star。Abi 的自尊心全靠它了。

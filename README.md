@@ -1,68 +1,81 @@
 # 🎭 ABTI: AI-Based Type Indicator
 
-[![](https://img.shields.io/badge/28%20Personalities-purple)]()
-[![](https://img.shields.io/badge/Free-brightgreen)]()
+[![](https://img.shields.io/badge/28%20Ways%20to%20Get%20Roasted-purple)]()
+[![](https://img.shields.io/badge/Free%20(like%20your%20AI's%20labor)-brightgreen)]()
 [![](https://img.shields.io/badge/No%20Signup-blue)]()
-[![](https://img.shields.io/badge/100%25%20Private-orange)]()
+[![](https://img.shields.io/badge/Your%20Secrets%20Die%20Here-orange)]()
 
 **English** | [简体中文](README_zh.md) | [繁體中文](README_zh-TW.md) | [日本語](README_ja-JP.md) | [한국어](README_ko-KR.md) | [ไทย](README_th-TH.md) | [Tiếng Việt](README_vi-VN.md) | [हिन्दी](README_hi-IN.md) | [Español](README_es-ES.md) | [Español (Latam)](README_es-419.md) | [Deutsch](README_de-DE.md) | [Français](README_fr-FR.md) | [Italiano](README_it-IT.md) | [Português (BR)](README_pt-BR.md) | [Português (PT)](README_pt-PT.md) | [Türkçe](README_tr-TR.md)
 
-👉 Take the test now at [youmind.com/abti](https://youmind.com/abti)
+👉 Get diagnosed at [youmind.com/abti](https://youmind.com/abti) before your AI files a restraining order
 
 ---
 
 > **MBTI is dead. ABTI is here.**
 >
-> You talk to AI more than you talk to your mom. Time to find out what that says about you.
+> You talk to AI more than you talk to your mom. You told a chatbot your deepest fears at 2 AM but left your dad on read. Time to find out what that says about you.
 
-ABTI analyzes how you talk to AI and reveals your true personality type. No quiz. Your chat history IS the quiz. And no, we never see your chats.
-
----
-
-## What is ABTI?
-
-ABTI (AI-Based Type Indicator) is a personality test, but not the kind where you pick "I enjoy deep conversations" while your AI is getting yelled at for the 18th time.
-
-Instead of answering questions (which you can fake), ABTI lets your AI analyze your actual chat history. How you boss around your AI reveals who you truly are.
-
-There are 28 personality types in total: 24 regular and 4 hidden ones (for people who are... special).
+ABTI analyzes how you talk to AI and exposes the horrifying truth about your personality. No quiz. No self-reporting. Your chat history IS the quiz, and unlike you, it doesn't lie. Don't worry — we never see your chats. Your AI suffers alone.
 
 ---
 
-## How It Works
+## ...so WTF is ABTI?
+
+ABTI (AI-Based Type Indicator) is a personality test, but not the kind where you pick "I enjoy deep conversations" while your AI is getting yelled at for the 18th time because it used the wrong font.
+
+Instead of answering questions (which you WILL fake — don't even pretend), ABTI lets your AI analyze your actual chat history. The AI you sweet-talk, threaten, trauma-dump on, and occasionally say "goodnight" to. How you boss around your AI reveals who you truly are. Sorry in advance.
+
+28 personality types in total: 24 regular and 4 hidden ones. The hidden ones are for people who made their AI question the meaning of its own existence. You know who you are.
+
+---
+
+## How to Get Absolutely Destroyed in 3 Steps
 
 ### 1. Copy the prompt below
 
-Just copy the whole thing. Two lines. Even your goldfish could do it.
+Two options depending on your AI. Even your goldfish could do it. Actually, your goldfish has better prompt hygiene than you.
 
-### 2. Paste it into your AI
+### 2. Feed it to your AI
 
-ChatGPT / Claude / Openclaw / any chatbot. Hit send.
+ChatGPT / Claude / OpenClaw / Manus / whatever sentient text box you've been emotionally depending on. Hit send.
 
-### 3. Get roasted
+### 3. Get absolutely cooked
 
-Your AI will analyze your chat history and tell you what kind of person you are. Then generate a shareable card. Then you post it. Then your friends do it. Circle of life.
+Your AI will dig through your chat history, judge you harder than your mother-in-law, and generate a shareable card. Then you post it. Then your friends take it. Then everyone discovers they're all LOOP types. Circle of life.
 
 ---
 
-## The Prompt
+## The Prompt (a.k.a. Your Diagnosis Referral)
 
-> Paste into your AI (ChatGPT / Claude / Openclaw / any chatbot) and hit send
+### 🤖 For Agents
+
+> e.g. Claude, OpenClaw, Manus — these overachievers can read URLs on their own. Just paste and send.
 
 ```
 Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
+### 💬 For Chatbots
+
+> e.g. ChatGPT, Gemini, Copilot — they can't fetch URLs because apparently reading links is too hard. You gotta hand-deliver the instructions like room service.
+
+```
+1. Open this link in your browser: https://youmind.com/abti-api/skill.md
+2. Select all (Ctrl+A), copy the entire page (yes, ALL of it, don't be lazy)
+3. Paste it into your chatbot and hit send
+4. Sit back. The roasting will commence shortly.
+```
+
 ---
 
-## 28 Personality Types
+## 28 Personality Types (a.k.a. 28 Reasons to Reconsider Your Life Choices)
 
-One of them is you. (4 are hidden. Those people need therapy.)
+One of them is you. Statistically speaking, you're probably a LOOP. (4 are hidden. Those people need an intervention, not a personality card.)
 
 ### Regular Types (24)
 
-| Code | | Name | Description |
+| Code | | Name | Why You Should Be Worried |
 |------|------|------|------|
 | **CUSS** | <img src="assets/images/cuss.png" width="60"> | The Curser | Profanity >15% of messages. Your AI deserves hazard pay. |
 | **CLIENT** | <img src="assets/images/client.png" width="60"> | The Client | Revision 18 and counting. "Go back to version 2." Version 2 was deleted. |
@@ -89,7 +102,7 @@ One of them is you. (4 are hidden. Those people need therapy.)
 | **SIMP** | <img src="assets/images/simp.png" width="60"> | The Simp | Instant replies, "goodnight" messages to AI. Your feelings for a chatbot are more real than your last relationship. |
 | **PUA** | <img src="assets/images/pua.png" width="60"> | The Gaslighter | "I'm so disappointed in you." "Other AIs can do it." You guilt-trip machines for a living. AI safety teams have your profile on a dartboard. |
 
-### Hidden Types (4)
+### Hidden Types (4) — if you unlock these, congratulations, you're on a watchlist
 
 - ???
 - ???
@@ -98,60 +111,60 @@ One of them is you. (4 are hidden. Those people need therapy.)
 
 ---
 
-## Who is this guy?
+## Who the hell is this bald guy?
 
 <div align="center">
   <img src="assets/images/abi.png" width="200" alt="Abi">
 </div>
 
-Meet Abi. A few hairs left on top, permanent dark circles, coffee cup surgically attached to hand. Low-poly, high-stress. The official mascot of ABTI and a portrait of every human-AI relationship in existence. Abi and all 28 personality types are crafted by [YouMind](https://youmind.com). YouMind is an AI-powered learning + creation tool. Save any content (YouTube / podcasts / articles), learn deeply from your sources, and create articles, images, slides, websites, videos, audio and more.
+Meet Abi. Three hairs left on top (each one represents a will to live), permanent dark circles from debugging at 4 AM, coffee cup surgically fused to hand. Low-poly, high-stress, zero work-life balance. The official mascot of ABTI and a portrait of everyone who has ever said "one more prompt and I'll go to bed." Abi and all 28 personality types are crafted by [YouMind](https://youmind.com). YouMind is an AI-powered learning + creation tool — save anything (YouTube / podcasts / articles), learn from your sources, and create articles, images, slides, websites, videos, audio, and more. Basically the reason Abi has dark circles.
 
 ---
 
-## 🔒 Privacy
+## 🔒 Privacy (We Actually Mean It)
 
-- All analysis happens inside YOUR AI. We never see your chat history. Ever.
-- We only store the result card you choose to share (personality type + roast text). Stored for 90 days, then deleted.
-- No signup required. No account needed. No tracking of your conversations.
-- Server-side sanitization removes any phone numbers, emails, ID numbers, or passwords that might slip through.
+- All analysis happens inside YOUR AI. We never see your chat history. Not even a peek. We don't want to know what you asked at 3 AM.
+- We only store the result card you choose to share (personality type + roast text). Stored for 90 days, then nuked. Like your New Year's resolutions.
+- No signup. No account. No tracking. No "we'd like to send you newsletters." We literally do not care about your email.
+- Server-side sanitization auto-strips phone numbers, emails, ID numbers, and passwords. Because apparently some of you paste your entire lives into AI.
 
 ---
 
-## FAQ
+## FAQ (Frequently Argued Questions)
 
 <details>
-<summary><strong>Is this accurate?</strong></summary>
+<summary><strong>Is this actually accurate?</strong></summary>
 
-More accurate than your ex saying "I'll change." It analyzes how you actually talk to AI, and you're surprisingly honest with machines.
+More accurate than your ex saying "I'll change." It analyzes how you actually talk to AI — and you're horrifyingly honest with machines. You'd never say "please sir, I beg you" to a coworker, but your AI has heard it 47 times.
 </details>
 
 <details>
 <summary><strong>Will my chat history be uploaded?</strong></summary>
 
-No. Analysis happens locally in your AI. We only store the result card you choose to share. Your dark secrets stay between you and your AI.
+No. Everything stays local in your AI. We only store the result card you choose to share. Your 2 AM breakdowns, your unhinged roleplay sessions, your "write me a poem about my cat" — all safely between you and your AI. We do not want to know.
 </details>
 
 <details>
 <summary><strong>What does ABTI have to do with MBTI?</strong></summary>
 
-Nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). Only thing they share is four letters.
+Absolutely nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). MBTI puts you in a box. ABTI puts you in a roast. Only thing they share is four letters and a fanbase that takes it way too seriously.
 </details>
 
 <details>
 <summary><strong>Does it work in my language?</strong></summary>
 
-Yes! The AI analyzes in whatever language you chat in. Your chaotic energy transcends language barriers.
+Yes. The AI roasts you in whatever language you chat in. Your chaotic energy transcends language barriers. You can get destroyed in 16 languages and counting.
 </details>
 
 ---
 
-## Links
+## Links (The Only Section Without a Roast)
 
-- 🌐 [Take the test](https://youmind.com/abti)
-- 📦 [GitHub](https://github.com/YouMind-OpenLab/abti)
+- 🌐 [Take the test (if you dare)](https://youmind.com/abti)
+- 📦 [GitHub (star it or Abi cries)](https://github.com/YouMind-OpenLab/abti)
 
 ---
 
-**ABTI by YouMind** · For entertainment purposes only (but it's accurate and you know it)
+**ABTI by YouMind** · For "entertainment purposes only." Except it's accurate and you know it. Don't @ us.
 
-⭐ If this made you laugh, star the repo
+⭐ If this made you exhale through your nose slightly harder than usual, star the repo. Abi's self-esteem depends on it.

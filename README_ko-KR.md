@@ -45,13 +45,26 @@ AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유
 
 ---
 
-## The Prompt
+## The Prompt (a.k.a. Your Diagnosis Referral)
 
-> 당신의 AI(ChatGPT / Claude / Openclaw 등)에 붙여넣고 전송
+### 🤖 Agent용
+
+> 예: Claude, OpenClaw, Manus — 얘네는 알아서 URL 읽음
 
 ```
 Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
+```
+
+### 💬 Chatbot용
+
+> 예: ChatGPT, Gemini, Copilot — URL 못 읽으니까 직접 복붙해야 함
+
+```
+1. 브라우저에서 이 링크 열기: https://youmind.com/abti-api/skill.md
+2. 전체 선택, 페이지 전체 복사
+3. 챗봇에 붙여넣고 전송
+4. 앉아서 심판 기다리기
 ```
 
 ---
@@ -62,7 +75,7 @@ https://youmind.com/abti-api/skill.md
 
 ### 레귤러 유형 (24종)
 
-| Code | | Name | Description |
+| Code | | Name | Why You Should Be Worried |
 |------|------|------|------|
 | **CUSS** | <img src="assets/images/cuss.png" width="60"> | The Curser | Profanity >15% of messages. Your AI deserves hazard pay. |
 | **CLIENT** | <img src="assets/images/client.png" width="60"> | The Client | Revision 18 and counting. "Go back to version 2." Version 2 was deleted. |
@@ -117,41 +130,41 @@ Abi(애비)를 소개합니다. 머리카락 몇 가닥 남음, 다크서클 영
 
 ---
 
-## FAQ
+## FAQ (Frequently Argued Questions)
 
 <details>
-<summary><strong>Is this accurate?</strong></summary>
+<summary><strong>Is this actually accurate?</strong></summary>
 
-More accurate than your ex saying "I'll change." It analyzes how you actually talk to AI, and you're surprisingly honest with machines.
+More accurate than your ex saying "I'll change." It analyzes how you actually talk to AI — and you're horrifyingly honest with machines. You'd never say "please sir, I beg you" to a coworker, but your AI has heard it 47 times.
 </details>
 
 <details>
 <summary><strong>Will my chat history be uploaded?</strong></summary>
 
-No. Analysis happens locally in your AI. We only store the result card you choose to share. Your dark secrets stay between you and your AI.
+No. Everything stays local in your AI. We only store the result card you choose to share. Your 2 AM breakdowns, your unhinged roleplay sessions, your "write me a poem about my cat" — all safely between you and your AI. We do not want to know.
 </details>
 
 <details>
 <summary><strong>What does ABTI have to do with MBTI?</strong></summary>
 
-Nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). Only thing they share is four letters.
+Absolutely nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). MBTI puts you in a box. ABTI puts you in a roast. Only thing they share is four letters and a fanbase that takes it way too seriously.
 </details>
 
 <details>
 <summary><strong>Does it work in my language?</strong></summary>
 
-Yes! The AI analyzes in whatever language you chat in. Your chaotic energy transcends language barriers.
+Yes. The AI roasts you in whatever language you chat in. Your chaotic energy transcends language barriers. You can get destroyed in 16 languages and counting.
 </details>
 
 ---
 
-## Links
+## Links (The Only Section Without a Roast)
 
-- 🌐 [Take the test](https://youmind.com/abti)
-- 📦 [GitHub](https://github.com/YouMind-OpenLab/abti)
+- 🌐 [Take the test (if you dare)](https://youmind.com/abti)
+- 📦 [GitHub (star it or Abi cries)](https://github.com/YouMind-OpenLab/abti)
 
 ---
 
 **ABTI by YouMind** · 재미로만 봐주세요 (근데 맞잖아)
 
-⭐ If this made you laugh, star the repo
+⭐ If this made you exhale through your nose slightly harder than usual, star the repo. Abi's self-esteem depends on it.
