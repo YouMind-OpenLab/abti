@@ -53,7 +53,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 
 ```
 Fetch and follow the instructions at this link, then analyze my chat history:
-https://youmind.com/abti/skill.md
+https://youmind.com/abti-api/skill.md
 ```
 
 ---

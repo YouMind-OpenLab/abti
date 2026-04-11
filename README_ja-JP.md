@@ -53,7 +53,7 @@ AIがチャット履歴を分析して、あなたが何者か教えてくれる
 
 ```
 Fetch and follow the instructions at this link, then analyze my chat history:
-https://youmind.com/abti/skill.md
+https://youmind.com/abti-api/skill.md
 ```
 
 ---

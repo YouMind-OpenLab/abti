@@ -53,7 +53,7 @@ AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유
 
 ```
 Fetch and follow the instructions at this link, then analyze my chat history:
-https://youmind.com/abti/skill.md
+https://youmind.com/abti-api/skill.md
 ```
 
 ---
