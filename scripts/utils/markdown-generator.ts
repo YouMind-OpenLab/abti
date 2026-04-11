@@ -16,7 +16,7 @@ import {
 const REGULAR_TYPES = [
   'CUSS', 'CLIENT', 'YAPPER', 'DRY', 'ASAP', 'VENT', 'BLESS', 'DEEP',
   'HIRE', 'SPOON', 'YOLO', 'IDC', 'LOOP', 'EMO', 'SON', 'NERD',
-  'SHADE', 'TROLL', 'CORP', 'HYPE', 'PATCH', 'SORRY', 'SIMP', 'PUA',
+  'SHADE', 'TROLL', 'CORP', 'HYPE', 'MASK', 'SORRY', 'SIMP', 'PUA',
 ] as const;
 
 const HIDDEN_TYPE_COUNT = 4;

@@ -1,7 +1,7 @@
 {
   "name": "abti",
   "version": "1.0.0",
-  "description": "ABTI (Agent-Based Type Indicator) - AI personality test based on your chat history",
+  "description": "ABTI (AI-Based Type Indicator) - AI personality test based on your chat history",
   "type": "module",
   "scripts": {
     "generate": "tsx scripts/generate-readme.ts"

@@ -17,8 +17,6 @@
 
 ABTI analyzes how you talk to AI and reveals your true personality type. No quiz. Your chat history IS the quiz. And no, we never see your chats.
 
-**How is ABTI different from SBTI?** SBTI asks what you *think* you are. ABTI lets AI tell you what you *actually* are. You can fake a quiz, but you can't fake your chat history.
-
 ---
 
 ## What is ABTI?
@@ -39,7 +37,7 @@ Just copy the whole thing. Two lines. Even your goldfish could do it.
 
 ### 2. Paste it into your AI
 
-ChatGPT / Claude / Gemini / Openclaw / any chatbot. Hit send.
+ChatGPT / Claude / Openclaw / any chatbot. Hit send.
 
 ### 3. Get roasted
 
@@ -49,7 +47,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 
 ## The Prompt
 
-> Pega en tu IA (ChatGPT / Claude / Gemini / Openclaw, etc.) y envía
+> Pega en tu IA (ChatGPT / Claude / Openclaw, etc.) y envía
 
 ```
 Fetch and follow the instructions at this link, then analyze my chat history:
@@ -86,7 +84,7 @@ One of them is you. (4 are hidden. Those people need therapy.)
 | **TROLL** | <img src="assets/images/troll.png" width="60"> | The Troll | AI says the sky is blue, you argue it's more of a cyan. Professional contrarian. |
 | **CORP** | <img src="assets/images/corp.jpg" width="60"> | Corporate Drone | "Noted." "Roger." Even chatting with AI feels like a Monday standup. |
 | **HYPE** | <img src="assets/images/hype.png" width="60"> | Hype Man | AI wrote "hello" and you said "INCREDIBLE." Praise inflation worse than Zimbabwe. |
-| **MASK** | <img src="assets/images/mask.png" width="60"> | The Method Actor | Every chat starts with character setup. 500-word backstory before AI types a word. You're hosting a cyber murder mystery. Sometimes you go so deep you forget your original question. |
+| **MASK** | <img src="assets/images/mask.png" width="60"> | Frankenprompt | Prompt starts Reddit, ends 4chan, middle is... a spell? AI noticed but won't say. |
 | **SORRY** | <img src="assets/images/sorry.png" width="60"> | The Apologizer | "Sorry to bother you." "Thank you so much." It's a machine. It doesn't need rest. |
 | **SIMP** | <img src="assets/images/simp.png" width="60"> | The Simp | Instant replies, "goodnight" messages to AI. Your feelings for a chatbot are more real than your last relationship. |
 | **PUA** | <img src="assets/images/pua.png" width="60"> | The Gaslighter | "I'm so disappointed in you." "Other AIs can do it." You guilt-trip machines for a living. AI safety teams have your profile on a dartboard. |
@@ -127,12 +125,6 @@ No. Analysis happens locally in your AI. We only store the result card you choos
 <summary><strong>What does ABTI have to do with MBTI?</strong></summary>
 
 Nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). Only thing they share is four letters.
-</details>
-
-<details>
-<summary><strong>What's the difference between ABTI and SBTI?</strong></summary>
-
-SBTI asks what you think you are. ABTI lets AI tell you what you actually are. You can fake a quiz, but you can't fake your chat history.
 </details>
 
 <details>

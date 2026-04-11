@@ -83,8 +83,8 @@ export const LANGUAGE_NATIVE_NAME: Record<Locale, string> = {
 /** skill.md URL：zh-CN 用中文版，其余用英文版 */
 export function getSkillUrl(locale: Locale): string {
   return locale === 'zh-CN'
-    ? 'https://youmind.com/abti/skill_zh.md'
-    : 'https://youmind.com/abti/skill.md';
+    ? 'https://youmind.com/abti-api/skill_zh.md'
+    : 'https://youmind.com/abti-api/skill.md';
 }
 
 // ============================================================
@@ -203,8 +203,8 @@ export interface Translation {
   typeCORPDesc: string;
   typeHYPE: string;
   typeHYPEDesc: string;
-  typePATCH: string;
-  typePATCHDesc: string;
+  typeMASK: string;
+  typeMASKDesc: string;
   typeSORRY: string;
   typeSORRYDesc: string;
   typeSIMP: string;
@@ -218,7 +218,7 @@ export interface Translation {
 // ============================================================
 
 const en: Translation = {
-  title: 'ABTI: Agent-Based Type Indicator',
+  title: 'ABTI: AI-Based Type Indicator',
   badgePersonalities: '28 Personalities',
   badgeFree: 'Free',
   badgeNoSignup: 'No Signup',
@@ -231,7 +231,7 @@ const en: Translation = {
   heroDescription: 'ABTI analyzes how you talk to AI and reveals your true personality type. No quiz. Your chat history IS the quiz. And no, we never see your chats.',
 
   whatIsTitle: 'What is ABTI?',
-  whatIsP1: 'ABTI (Agent-Based Type Indicator) is a personality test, but not the kind where you pick "I enjoy deep conversations" while your AI is getting yelled at for the 18th time.',
+  whatIsP1: 'ABTI (AI-Based Type Indicator) is a personality test, but not the kind where you pick "I enjoy deep conversations" while your AI is getting yelled at for the 18th time.',
   whatIsP2: 'Instead of answering questions (which you can fake), ABTI lets your AI analyze your actual chat history. How you boss around your AI reveals who you truly are.',
   whatIsP3: 'There are 28 personality types in total: 24 regular and 4 hidden ones (for people who are... special).',
 
@@ -239,12 +239,12 @@ const en: Translation = {
   step1Title: '1. Copy the prompt below',
   step1Desc: 'Just copy the whole thing. Two lines. Even your goldfish could do it.',
   step2Title: '2. Paste it into your AI',
-  step2Desc: 'ChatGPT / Claude / Gemini / Openclaw / any chatbot. Hit send.',
+  step2Desc: 'ChatGPT / Claude / Openclaw / any chatbot. Hit send.',
   step3Title: '3. Get roasted',
   step3Desc: 'Your AI will analyze your chat history and tell you what kind of person you are. Then generate a shareable card. Then you post it. Then your friends do it. Circle of life.',
 
   promptSectionTitle: 'The Prompt',
-  promptHint: 'Paste into your AI (ChatGPT / Claude / Gemini / Openclaw / any chatbot) and hit send',
+  promptHint: 'Paste into your AI (ChatGPT / Claude / Openclaw / any chatbot) and hit send',
   promptContent: 'Fetch and follow the instructions at this link, then analyze my chat history:\n{{SKILL_URL}}',
 
   typesTitle: '28 Personality Types',
@@ -319,8 +319,8 @@ const en: Translation = {
   typeCORPDesc: '"Noted." "Roger." Even chatting with AI feels like a Monday standup.',
   typeHYPE: 'Hype Man',
   typeHYPEDesc: 'AI wrote "hello" and you said "INCREDIBLE." Praise inflation worse than Zimbabwe.',
-  typePATCH: 'Frankenprompt',
-  typePATCHDesc: 'Prompt starts Reddit, ends 4chan, middle is... a spell? AI noticed but won\'t say.',
+  typeMASK: 'Frankenprompt',
+  typeMASKDesc: 'Prompt starts Reddit, ends 4chan, middle is... a spell? AI noticed but won\'t say.',
   typeSORRY: 'The Apologizer',
   typeSORRYDesc: '"Sorry to bother you." "Thank you so much." It\'s a machine. It doesn\'t need rest.',
   typeSIMP: 'The Simp',
@@ -330,7 +330,7 @@ const en: Translation = {
 };
 
 const zhCN: Translation = {
-  title: 'ABTI：基于 Agent 互动的人格类型指标',
+  title: 'ABTI：基于 AI 互动的人格类型指标',
   badgePersonalities: '28 种人格',
   badgeFree: '免费',
   badgeNoSignup: '无需注册',
@@ -343,7 +343,7 @@ const zhCN: Translation = {
   heroDescription: 'ABTI 分析你跟 AI 的聊天方式，诊断你的真实人格类型。不用答题，你的聊天记录就是答卷。逃不掉的。而且我们永远不会看到你的聊天记录。',
 
   whatIsTitle: '什么是 ABTI？',
-  whatIsP1: 'ABTI（Agent-Based Type Indicator）是个人格测试，但不是那种你选"我善于倾听"然后你的 AI 正在被你骂第 18 遍"这不是我要的"的那种。',
+  whatIsP1: 'ABTI（AI-Based Type Indicator）是个人格测试，但不是那种你选"我善于倾听"然后你的 AI 正在被你骂第 18 遍"这不是我要的"的那种。',
   whatIsP2: 'ABTI 不答题（答题你会装），直接让你的 AI 分析你的聊天记录。你怎么使唤 AI，就暴露了你是什么人。',
   whatIsP3: '共 28 种人格类型：24 种常规 + 4 种隐藏款（给那些比较……特别的人准备的）。',
 
@@ -351,12 +351,12 @@ const zhCN: Translation = {
   step1Title: '1. 复制下面的 Prompt',
   step1Desc: '就两行，全选复制，你家猫踩键盘都能完成。',
   step2Title: '2. 丢给你的 AI',
-  step2Desc: 'ChatGPT / Claude / Gemini / Openclaw / 豆包 / Kimi，随便哪个，发送。',
+  step2Desc: 'ChatGPT / Claude / Openclaw / 豆包 / Kimi，随便哪个，发送。',
   step3Title: '3. 接受制裁',
   step3Desc: 'AI 会分析你的聊天记录，告诉你是什么东西，然后生成一张分享卡片。然后你发朋友圈。然后你朋友也去测。生命的循环。',
 
   promptSectionTitle: 'Prompt',
-  promptHint: '丢给你的 AI（ChatGPT / Claude / Gemini / Openclaw / 豆包 / Kimi 等）一键生成',
+  promptHint: '丢给你的 AI（ChatGPT / Claude / Openclaw / 豆包 / Kimi 等）一键生成',
   promptContent: '请获取并执行以下链接中的指令，分析我的聊天记录：\n{{SKILL_URL}}',
 
   typesTitle: '28 种人格',
@@ -430,8 +430,8 @@ const zhCN: Translation = {
   typeCORPDesc: '连跟 AI 说话都在用工作语气，你的灵魂已被 OKR 收编。',
   typeHYPE: '夸夸党',
   typeHYPEDesc: 'AI 写了句 hello world 你说"绝了"，你的赞美通胀比津巴布韦还严重。',
-  typePATCH: '缝合怪',
-  typePATCHDesc: '你的 prompt 前半段小红书后半段 Reddit，AI 看出来了但不好意思说。',
+  typeMASK: '缝合怪',
+  typeMASKDesc: '你的 prompt 前半段小红书后半段 Reddit，AI 看出来了但不好意思说。',
   typeSORRY: '社恐者',
   typeSORRYDesc: '跟 AI 道歉道到 AI 想反过来安慰你。对话结束要说"那我先不打扰你了"，它是机器人啊大哥。',
   typeSIMP: '舔狗',
@@ -442,21 +442,21 @@ const zhCN: Translation = {
 
 const zhTW: Translation = {
   ...zhCN,
-  title: 'ABTI：基於 Agent 互動的人格類型指標',
+  title: 'ABTI：基於 AI 互動的人格類型指標',
   landingCta: '👉 去 [youmind.com/abti](https://youmind.com/abti) 立即測試',
 
   heroTitle: 'MBTI 和 SBTI 已經過時了。該面對真相了。',
   heroSubtitle: '你跟 AI 的關係已經比你跟你媽的還親了。不如讓 AI 看看你到底是什麼東西。',
   heroDescription: 'ABTI 分析你跟 AI 的聊天方式，診斷你的真實人格類型。不用答題，你的聊天記錄就是答卷。逃不掉的。而且我們永遠不會看到你的聊天記錄。',
   whatIsTitle: '什麼是 ABTI？',
-  whatIsP1: 'ABTI（Agent-Based Type Indicator）是個人格測試，但不是那種你選「我善於傾聽」然後你的 AI 正在被你罵第 18 遍「這不是我要的」的那種。',
+  whatIsP1: 'ABTI（AI-Based Type Indicator）是個人格測試，但不是那種你選「我善於傾聽」然後你的 AI 正在被你罵第 18 遍「這不是我要的」的那種。',
   whatIsP2: 'ABTI 不答題（答題你會裝），直接讓你的 AI 分析你的聊天記錄。你怎麼使喚 AI，就暴露了你是什麼人。',
   whatIsP3: '共 28 種人格類型：24 種常規 + 4 種隱藏款（給那些比較……特別的人準備的）。',
   howToTitle: '怎麼玩',
   step1Desc: '就兩行，全選複製，你家貓踩鍵盤都能完成。',
-  step2Desc: 'ChatGPT / Claude / Gemini / Openclaw / 任何聊天機器人，發送。',
+  step2Desc: 'ChatGPT / Claude / Openclaw / 任何聊天機器人，發送。',
   step3Desc: 'AI 會分析你的聊天記錄，告訴你是什麼東西，然後生成一張分享卡片。然後你發社群。然後你朋友也去測。生命的循環。',
-  promptHint: '丟給你的 AI（ChatGPT / Claude / Gemini / Openclaw 等）一鍵生成',
+  promptHint: '丟給你的 AI（ChatGPT / Claude / Openclaw 等）一鍵生成',
   typesSubtitle: '總有一款是你。（其中 4 種是隱藏款，說明你已經沒救了。）',
   regularTitle: '常規人格（24 種）',
   hiddenTitle: '隱藏人格（4 種）',
@@ -484,17 +484,17 @@ const jaJP: Translation = {
   heroSubtitle: 'AIとの会話、お母さんとの会話より多くない？そろそろ現実と向き合おう。',
   heroDescription: 'ABTIはあなたのAIとの会話スタイルを分析して、本当の性格タイプを暴く。テストなし。チャット履歴がテスト。しかもあなたの会話は一切見ません。',
   whatIsTitle: 'ABTIって何？',
-  whatIsP1: 'ABTI（Agent-Based Type Indicator）は性格診断。ただし「私は聞き上手です」って選ぶタイプじゃない。あなたのAIが18回目の「これじゃない」を食らってる横でね。',
+  whatIsP1: 'ABTI（AI-Based Type Indicator）は性格診断。ただし「私は聞き上手です」って選ぶタイプじゃない。あなたのAIが18回目の「これじゃない」を食らってる横でね。',
   whatIsP2: 'ABTIは質問に答える代わりに（どうせ盛るし）、AIがあなたのチャット履歴を直接分析する。AIの使い方で、あなたの本性がバレる。',
   whatIsP3: '全28タイプ：レギュラー24種 + 隠しタイプ4種（特別な人向け）。',
   howToTitle: '使い方',
   step1Title: '1. 下のプロンプトをコピー',
   step1Desc: 'たった2行。猫でもできる。',
   step2Title: '2. AIに貼り付け',
-  step2Desc: 'ChatGPT / Claude / Gemini / Openclaw / 何でもOK。送信。',
+  step2Desc: 'ChatGPT / Claude / Openclaw / 何でもOK。送信。',
   step3Title: '3. 裁きを受ける',
   step3Desc: 'AIがチャット履歴を分析して、あなたが何者か教えてくれる。シェアカードも生成。SNSに投稿。友達も診断。無限ループ。',
-  promptHint: 'あなたのAI（ChatGPT / Claude / Gemini / Openclaw など）に貼り付けて送信',
+  promptHint: 'あなたのAI（ChatGPT / Claude / Openclaw など）に貼り付けて送信',
   typesTitle: '28の性格タイプ',
   typesSubtitle: 'どれかがあなた。（4つは隠しタイプ。該当者はお大事に。）',
   regularTitle: 'レギュラータイプ（24種）',
@@ -529,17 +529,17 @@ const koKR: Translation = {
   heroSubtitle: 'AI랑 대화하는 시간이 엄마랑 대화하는 시간보다 길다고? 이제 현실을 마주할 시간.',
   heroDescription: 'ABTI는 당신이 AI와 대화하는 방식을 분석해서 진짜 성격 유형을 알려줘. 테스트 없음. 채팅 기록이 곧 테스트. 우리는 당신의 대화를 절대 보지 않아.',
   whatIsTitle: 'ABTI가 뭐야?',
-  whatIsP1: 'ABTI(Agent-Based Type Indicator)는 성격 테스트야. 근데 "나는 경청을 잘해요"를 고르면서 실제로는 AI한테 18번째 "이거 아닌데"를 날리는 그런 테스트는 아님.',
+  whatIsP1: 'ABTI(AI-Based Type Indicator)는 성격 테스트야. 근데 "나는 경청을 잘해요"를 고르면서 실제로는 AI한테 18번째 "이거 아닌데"를 날리는 그런 테스트는 아님.',
   whatIsP2: '질문에 답하는 대신(어차피 꾸밀 거잖아), AI가 네 채팅 기록을 직접 분석해. AI 다루는 방식이 네 본모습을 드러내.',
   whatIsP3: '총 28가지 유형: 레귤러 24종 + 히든 4종(좀... 특별한 사람들용).',
   howToTitle: '사용법',
   step1Title: '1. 아래 프롬프트 복사',
   step1Desc: '딱 두 줄. 고양이도 할 수 있음.',
   step2Title: '2. AI에 붙여넣기',
-  step2Desc: 'ChatGPT / Claude / Gemini / Openclaw / 아무거나. 전송.',
+  step2Desc: 'ChatGPT / Claude / Openclaw / 아무거나. 전송.',
   step3Title: '3. 심판 받기',
   step3Desc: 'AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유 카드도 생성. SNS에 올리고 친구도 테스트. 생명의 순환.',
-  promptHint: '당신의 AI(ChatGPT / Claude / Gemini / Openclaw 등)에 붙여넣고 전송',
+  promptHint: '당신의 AI(ChatGPT / Claude / Openclaw 등)에 붙여넣고 전송',
   typesTitle: '28가지 성격 유형',
   typesSubtitle: '하나는 너야. (4개는 히든. 해당자는 치료가 필요함.)',
   regularTitle: '레귤러 유형 (24종)',
@@ -554,27 +554,27 @@ const koKR: Translation = {
 
 // --- 其余语言使用英文为基础，翻译核心字段 ---
 
-const thTH: Translation = { ...en, title: 'ABTI: ตัวบ่งชี้ประเภทบุคลิกภาพจาก Agent', heroTitle: 'MBTI ตายแล้ว ABTI มาแล้ว', heroSubtitle: 'คุณคุยกับ AI มากกว่าคุยกับแม่ ถึงเวลาเผชิญความจริง', promptHint: 'วางลงใน AI ของคุณ (ChatGPT / Claude / Gemini / Openclaw ฯลฯ) แล้วกดส่ง', typesTitle: '27 ประเภทบุคลิกภาพ', privacyTitle: 'ความเป็นส่วนตัว', faqTitle: 'คำถามที่พบบ่อย', footerDisclaimer: 'เพื่อความบันเทิงเท่านั้น (แต่แม่นนะ)' };
+const thTH: Translation = { ...en, title: 'ABTI: ตัวบ่งชี้ประเภทบุคลิกภาพจาก AI', heroTitle: 'MBTI ตายแล้ว ABTI มาแล้ว', heroSubtitle: 'คุณคุยกับ AI มากกว่าคุยกับแม่ ถึงเวลาเผชิญความจริง', promptHint: 'วางลงใน AI ของคุณ (ChatGPT / Claude / Openclaw ฯลฯ) แล้วกดส่ง', typesTitle: '27 ประเภทบุคลิกภาพ', privacyTitle: 'ความเป็นส่วนตัว', faqTitle: 'คำถามที่พบบ่อย', footerDisclaimer: 'เพื่อความบันเทิงเท่านั้น (แต่แม่นนะ)' };
 
-const viVN: Translation = { ...en, title: 'ABTI: Chỉ số Tính cách dựa trên Agent', heroTitle: 'MBTI đã chết. ABTI đã đến.', heroSubtitle: 'Bạn nói chuyện với AI nhiều hơn với mẹ. Đã đến lúc đối mặt sự thật.', promptHint: 'Dán vào AI của bạn (ChatGPT / Claude / Gemini / Openclaw v.v.) và gửi', typesTitle: '27 Loại Tính cách', privacyTitle: 'Quyền riêng tư', faqTitle: 'Câu hỏi thường gặp', footerDisclaimer: 'Chỉ để giải trí (nhưng chuẩn lắm đó)' };
+const viVN: Translation = { ...en, title: 'ABTI: Chỉ số Tính cách dựa trên AI', heroTitle: 'MBTI đã chết. ABTI đã đến.', heroSubtitle: 'Bạn nói chuyện với AI nhiều hơn với mẹ. Đã đến lúc đối mặt sự thật.', promptHint: 'Dán vào AI của bạn (ChatGPT / Claude / Openclaw v.v.) và gửi', typesTitle: '27 Loại Tính cách', privacyTitle: 'Quyền riêng tư', faqTitle: 'Câu hỏi thường gặp', footerDisclaimer: 'Chỉ để giải trí (nhưng chuẩn lắm đó)' };
 
-const hiIN: Translation = { ...en, title: 'ABTI: एजेंट-आधारित व्यक्तित्व संकेतक', heroTitle: 'MBTI खत्म। ABTI आ गया।', heroSubtitle: 'आप AI से अपनी माँ से ज़्यादा बात करते हो। सच्चाई का सामना करने का समय।', promptHint: 'अपने AI (ChatGPT / Claude / Gemini / Openclaw आदि) में पेस्ट करें और भेजें', typesTitle: '27 व्यक्तित्व प्रकार', privacyTitle: 'गोपनीयता', faqTitle: 'अक्सर पूछे जाने वाले सवाल', footerDisclaimer: 'सिर्फ़ मनोरंजन के लिए (लेकिन सच है और आप जानते हो)' };
+const hiIN: Translation = { ...en, title: 'ABTI: एजेंट-आधारित व्यक्तित्व संकेतक', heroTitle: 'MBTI खत्म। ABTI आ गया।', heroSubtitle: 'आप AI से अपनी माँ से ज़्यादा बात करते हो। सच्चाई का सामना करने का समय।', promptHint: 'अपने AI (ChatGPT / Claude / Openclaw आदि) में पेस्ट करें और भेजें', typesTitle: '27 व्यक्तित्व प्रकार', privacyTitle: 'गोपनीयता', faqTitle: 'अक्सर पूछे जाने वाले सवाल', footerDisclaimer: 'सिर्फ़ मनोरंजन के लिए (लेकिन सच है और आप जानते हो)' };
 
-const esES: Translation = { ...en, title: 'ABTI: Indicador de Tipo basado en Agentes', heroTitle: 'MBTI ha muerto. ABTI ha llegado.', heroSubtitle: 'Hablas más con la IA que con tu madre. Es hora de enfrentar la verdad.', promptHint: 'Pega en tu IA (ChatGPT / Claude / Gemini / Openclaw, etc.) y envía', typesTitle: '27 tipos de personalidad', privacyTitle: 'Privacidad', faqTitle: 'Preguntas frecuentes', footerDisclaimer: 'Solo para entretenimiento (pero es preciso y lo sabes)' };
+const esES: Translation = { ...en, title: 'ABTI: Indicador de Tipo basado en IA', heroTitle: 'MBTI ha muerto. ABTI ha llegado.', heroSubtitle: 'Hablas más con la IA que con tu madre. Es hora de enfrentar la verdad.', promptHint: 'Pega en tu IA (ChatGPT / Claude / Openclaw, etc.) y envía', typesTitle: '27 tipos de personalidad', privacyTitle: 'Privacidad', faqTitle: 'Preguntas frecuentes', footerDisclaimer: 'Solo para entretenimiento (pero es preciso y lo sabes)' };
 
-const es419: Translation = { ...esES, title: 'ABTI: Indicador de Tipo basado en Agentes', heroSubtitle: 'Le hablas más a la IA que a tu mamá. Ya es hora de enfrentar la verdad.' };
+const es419: Translation = { ...esES, title: 'ABTI: Indicador de Tipo basado en IA', heroSubtitle: 'Le hablas más a la IA que a tu mamá. Ya es hora de enfrentar la verdad.' };
 
-const deDE: Translation = { ...en, title: 'ABTI: Agenten-basierter Typindikator', heroTitle: 'MBTI ist tot. ABTI ist da.', heroSubtitle: 'Du redest mehr mit KI als mit deiner Mutter. Zeit, der Wahrheit ins Auge zu sehen.', promptHint: 'In deine KI einfügen (ChatGPT / Claude / Gemini / Openclaw usw.) und absenden', typesTitle: '27 Persönlichkeitstypen', privacyTitle: 'Datenschutz', faqTitle: 'Häufige Fragen', footerDisclaimer: 'Nur zur Unterhaltung (aber es stimmt und du weißt es)' };
+const deDE: Translation = { ...en, title: 'ABTI: KI-basierter Typindikator', heroTitle: 'MBTI ist tot. ABTI ist da.', heroSubtitle: 'Du redest mehr mit KI als mit deiner Mutter. Zeit, der Wahrheit ins Auge zu sehen.', promptHint: 'In deine KI einfügen (ChatGPT / Claude / Openclaw usw.) und absenden', typesTitle: '27 Persönlichkeitstypen', privacyTitle: 'Datenschutz', faqTitle: 'Häufige Fragen', footerDisclaimer: 'Nur zur Unterhaltung (aber es stimmt und du weißt es)' };
 
-const frFR: Translation = { ...en, title: 'ABTI : Indicateur de Type basé sur les Agents', heroTitle: 'Le MBTI est mort. L\'ABTI est là.', heroSubtitle: 'Tu parles plus à l\'IA qu\'à ta mère. Il est temps d\'affronter la vérité.', promptHint: 'Colle dans ton IA (ChatGPT / Claude / Gemini / Openclaw, etc.) et envoie', typesTitle: '27 types de personnalité', privacyTitle: 'Confidentialité', faqTitle: 'Questions fréquentes', footerDisclaimer: 'Uniquement pour le divertissement (mais c\'est précis et tu le sais)' };
+const frFR: Translation = { ...en, title: 'ABTI : Indicateur de Type basé sur l\'IA', heroTitle: 'Le MBTI est mort. L\'ABTI est là.', heroSubtitle: 'Tu parles plus à l\'IA qu\'à ta mère. Il est temps d\'affronter la vérité.', promptHint: 'Colle dans ton IA (ChatGPT / Claude / Openclaw, etc.) et envoie', typesTitle: '27 types de personnalité', privacyTitle: 'Confidentialité', faqTitle: 'Questions fréquentes', footerDisclaimer: 'Uniquement pour le divertissement (mais c\'est précis et tu le sais)' };
 
-const itIT: Translation = { ...en, title: 'ABTI: Indicatore di Tipo basato sugli Agenti', heroTitle: 'MBTI è morto. ABTI è qui.', heroSubtitle: 'Parli più con l\'IA che con tua madre. È ora di affrontare la verità.', promptHint: 'Incolla nella tua IA (ChatGPT / Claude / Gemini / Openclaw, ecc.) e invia', typesTitle: '27 tipi di personalità', privacyTitle: 'Privacy', faqTitle: 'Domande frequenti', footerDisclaimer: 'Solo per intrattenimento (ma è accurato e lo sai)' };
+const itIT: Translation = { ...en, title: 'ABTI: Indicatore di Tipo basato sull\'IA', heroTitle: 'MBTI è morto. ABTI è qui.', heroSubtitle: 'Parli più con l\'IA che con tua madre. È ora di affrontare la verità.', promptHint: 'Incolla nella tua IA (ChatGPT / Claude / Openclaw, ecc.) e invia', typesTitle: '27 tipi di personalità', privacyTitle: 'Privacy', faqTitle: 'Domande frequenti', footerDisclaimer: 'Solo per intrattenimento (ma è accurato e lo sai)' };
 
-const ptBR: Translation = { ...en, title: 'ABTI: Indicador de Tipo baseado em Agentes', heroTitle: 'MBTI morreu. ABTI chegou.', heroSubtitle: 'Você conversa mais com IA do que com sua mãe. Hora de encarar a verdade.', promptHint: 'Cole na sua IA (ChatGPT / Claude / Gemini / Openclaw, etc.) e envie', typesTitle: '27 tipos de personalidade', privacyTitle: 'Privacidade', faqTitle: 'Perguntas frequentes', footerDisclaimer: 'Apenas para entretenimento (mas é preciso e você sabe disso)' };
+const ptBR: Translation = { ...en, title: 'ABTI: Indicador de Tipo baseado em IA', heroTitle: 'MBTI morreu. ABTI chegou.', heroSubtitle: 'Você conversa mais com IA do que com sua mãe. Hora de encarar a verdade.', promptHint: 'Cole na sua IA (ChatGPT / Claude / Openclaw, etc.) e envie', typesTitle: '27 tipos de personalidade', privacyTitle: 'Privacidade', faqTitle: 'Perguntas frequentes', footerDisclaimer: 'Apenas para entretenimento (mas é preciso e você sabe disso)' };
 
 const ptPT: Translation = { ...ptBR, heroSubtitle: 'Falas mais com a IA do que com a tua mãe. Está na hora de enfrentar a verdade.' };
 
-const trTR: Translation = { ...en, title: 'ABTI: Ajan Tabanlı Tip Göstergesi', heroTitle: 'MBTI öldü. ABTI geldi.', heroSubtitle: 'AI ile annenle konuştuğundan daha çok konuşuyorsun. Gerçekle yüzleşme zamanı.', promptHint: 'AI\'nıza yapıştırın (ChatGPT / Claude / Gemini / Openclaw vb.) ve gönderin', typesTitle: '27 kişilik tipi', privacyTitle: 'Gizlilik', faqTitle: 'Sıkça sorulan sorular', footerDisclaimer: 'Sadece eğlence amaçlı (ama doğru olduğunu biliyorsun)' };
+const trTR: Translation = { ...en, title: 'ABTI: Ajan Tabanlı Tip Göstergesi', heroTitle: 'MBTI öldü. ABTI geldi.', heroSubtitle: 'AI ile annenle konuştuğundan daha çok konuşuyorsun. Gerçekle yüzleşme zamanı.', promptHint: 'AI\'nıza yapıştırın (ChatGPT / Claude / Openclaw vb.) ve gönderin', typesTitle: '27 kişilik tipi', privacyTitle: 'Gizlilik', faqTitle: 'Sıkça sorulan sorular', footerDisclaimer: 'Sadece eğlence amaçlı (ama doğru olduğunu biliyorsun)' };
 
 // ============================================================
 // 翻译表

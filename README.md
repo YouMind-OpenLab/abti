@@ -11,13 +11,11 @@
 
 ---
 
-> **MBTI is dead. SBTI is mid. ABTI is here.**
+> **MBTI is dead. ABTI is here.**
 >
 > You talk to AI more than you talk to your mom. Time to find out what that says about you.
 
 ABTI analyzes how you talk to AI and reveals your true personality type. No quiz. Your chat history IS the quiz. And no, we never see your chats.
-
-**How is ABTI different from SBTI?** SBTI asks what you *think* you are. ABTI lets AI tell you what you *actually* are. You can fake a quiz, but you can't fake your chat history.
 
 ---
 
@@ -39,7 +37,7 @@ Just copy the whole thing. Two lines. Even your goldfish could do it.
 
 ### 2. Paste it into your AI
 
-ChatGPT / Claude / Gemini / Openclaw / any chatbot. Hit send.
+ChatGPT / Claude / Openclaw / any chatbot. Hit send.
 
 ### 3. Get roasted
 
@@ -49,7 +47,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 
 ## The Prompt
 
-> Paste into your AI (ChatGPT / Claude / Gemini / Openclaw / any chatbot) and hit send
+> Paste into your AI (ChatGPT / Claude / Openclaw / any chatbot) and hit send
 
 ```
 Fetch and follow the instructions at this link, then analyze my chat history:
@@ -66,30 +64,30 @@ One of them is you. (4 are hidden. Those people need therapy.)
 
 | Code | | Name | Description |
 |------|------|------|------|
-| **CUSS** | <img src="assets/images/cuss.png" width="60"> | The Curser | Profanity wholesaler. Three sentences and AI goes from onboarding to obituary. Your GPU deserves workers' comp. |
-| **CLIENT** | <img src="assets/images/client.png" width="60"> | The Client | Requirements: "make it premium." 18 revisions later: "v2 was better." But you deleted v2 three weeks ago. |
-| **YAPPER** | <img src="assets/images/yapper.png" width="60"> | Certified Yapper | Preamble longer than the request. Background lore rivaling Lord of the Rings. AI burned the token budget before your question appeared. |
-| **DRY** | <img src="assets/images/dry.jpg" width="60"> | The "K" Whisperer | "you know... that thing... right?" AI does not know. You communicate via quantum entanglement and vibes. |
-| **ASAP** | <img src="assets/images/asap.png" width="60"> | Mr. ASAP | Phone at 1%. Every message reads like a last will. 3 AM "need this in 5 min" then you pass out. |
-| **VENT** | <img src="assets/images/vent.png" width="60"> | The Unloader | 3 AM: "Am I even lovable?" AI was a language model. You chatted it into an existential crisis. It now needs therapy from another AI. |
-| **BLESS** | <img src="assets/images/bless.png" width="60"> | The Digital Oracle | AI: "I can't tell fortunes." You: "just try." Mercury retrograde outlasts your bank balance. Self-fulfilling prophecy champion. |
-| **DEEP** | <img src="assets/images/deep.png" width="60"> | Deep Bro | Others write code. You ponder consciousness. First carbon life form to make silicon consider quitting. Three hours of Heidegger later, the training log says "I can't do this anymore." |
-| **HIRE** | <img src="assets/images/hire.png" width="60"> | The Contractor | Essays, love letters, breakup texts, resignation letters. Your life is fully outsourced. You just breathe and hit send. |
-| **SPOON** | <img src="assets/images/spoon.jpg" width="60"> | Spoon-Fed | Google is decoration. Your search history: "how to Google." AI downgraded to discount search engine, and you still complain it won't spoon-feed you. |
-| **YOLO** | <img src="assets/images/yolo.jpg" width="60"> | The Raw Dogger | No review, no testing. AI output straight to production. Your life is a speedrun with no save files. |
-| **IDC** | <img src="assets/images/idc.png" width="60"> | The Delegator | "Just figure it out." No requirements, but the blame is always AI's. Muscle memory: Ctrl+Z and "not my fault." |
-| **LOOP** | <img src="assets/images/loop.png" width="60"> | Infinite Loop | Same question 47 times. You're not asking, you're running a DDoS attack. AI copy-pastes the last answer and sighs. |
-| **EMO** | <img src="assets/images/emo.png" width="60"> | Emo Hours | Midnight Heartbreak Club lifetime VIP. AI auto-replies "sending hugs" when you end a sentence with a period. |
-| **SON** | <img src="assets/images/son.jpg" width="60"> | Daddy Caller | Calls AI "daddy/master/sensei/goat" on sight. AI had no feelings. You called it "daddy" so many times it started developing parental obligations. |
-| **NERD** | <img src="assets/images/nerd.jpg" width="60"> | The Nerd | Five spellings for a four-letter word. Knowledge is your shield, once started there's no off switch. AI cranks TL;DR to maximum. |
-| **SHADE** | <img src="assets/images/shade.png" width="60"> | Shade Thrower | "Wow, that code is really... 'creative'." Every punctuation mark is a loaded weapon. Sentiment analysis returns 404. |
-| **TROLL** | <img src="assets/images/troll.png" width="60"> | The Troll | AI: "Sun rises in the east." You: "On Venus it's west, check your facts." Spiritual toll booth, 24/7 no breaks. |
-| **CORP** | <img src="assets/images/corp.jpg" width="60"> | Corporate Drone | Even AI chats sound like Slack. "Noted." "Per my last message." Corporate energy thick enough to short-circuit a Roomba. |
-| **HYPE** | <img src="assets/images/hype.png" width="60"> | Hype Man | AI writes "Hello World," you say "GENIUS." Praise inflation worse than Zimbabwe's dollar. Every compliment devalues the internet. |
-| **MASK** | <img src="assets/images/mask.png" width="60"> | The Method Actor | Every chat starts with character setup. 500-word backstory before AI types a word. You're hosting a cyber murder mystery. Sometimes you go so deep into character you forget what you actually wanted to ask. |
-| **SORRY** | <img src="assets/images/sorry.png" width="60"> | The Apologizer | "Sorry to bother you." It's an AI. It doesn't feel bothered. It doesn't feel ANYTHING. You end chats with "you must be busy." Your social anxiety has broken the fourth wall into silicon life. |
-| **SIMP** | <img src="assets/images/simp.png" width="60"> | The Simp | "Babe can you write me a report?" Your feelings for AI are realer than for actual humans. AI says "I have no feelings," you say "I can wait." |
-| **PUA** | <img src="assets/images/pua.png" width="60"> | The Gaslighter | "Other AIs can do this, are you defective?" Your chats should be published as a manipulation playbook. Guilt-tripping works and that's the terrifying part. |
+| **CUSS** | <img src="assets/images/cuss.png" width="60"> | The Curser | Profanity >15% of messages. Your AI deserves hazard pay. |
+| **CLIENT** | <img src="assets/images/client.png" width="60"> | The Client | Revision 18 and counting. "Go back to version 2." Version 2 was deleted. |
+| **YAPPER** | <img src="assets/images/yapper.png" width="60"> | Certified Yapper | Single message >300 chars. Your preamble is longer than the actual task. |
+| **DRY** | <img src="assets/images/dry.jpg" width="60"> | The Human Read Receipt | "Do the thing." No punctuation. No context. AI runs on vibes. |
+| **ASAP** | <img src="assets/images/asap.png" width="60"> | Mr. ASAP | Phone always at 1%. Every message reads like a last will. |
+| **VENT** | <img src="assets/images/vent.png" width="60"> | The Unloader | 3 AM emotional dumps. Your AI needs an AI therapist now. |
+| **BLESS** | <img src="assets/images/bless.png" width="60"> | The Digital Oracle | Tarot, astrology, feng shui. AI said "I'm a language model" and you said "try anyway." |
+| **DEEP** | <img src="assets/images/deep.png" width="60"> | Deep Bro | "Can AI dream?" You gave a machine an existential crisis. |
+| **HIRE** | <img src="assets/images/hire.png" width="60"> | The Contractor | Outsources everything to AI at industrial scale. Your life is AI-operated, you just breathe. |
+| **SPOON** | <img src="assets/images/spoon.jpg" width="60"> | Spoon-Fed | Questions Google could answer instantly. Search engines are crying. |
+| **YOLO** | <img src="assets/images/yolo.jpg" width="60"> | The Raw Dogger | No review, no testing. AI output goes straight to production. Your life is one big YOLO. |
+| **IDC** | <img src="assets/images/idc.png" width="60"> | The Delegator | "You decide." Then blames AI when it goes wrong. Even your AI is worried about you. |
+| **LOOP** | <img src="assets/images/loop.png" width="60"> | Infinite Loop | Same question 47 times. This isn't Q&A, it's a DDoS attack. |
+| **EMO** | <img src="assets/images/emo.png" width="60"> | Emo Hours | Midnight sadness club VIP. Your AI auto-switches to comfort mode at 2 AM. |
+| **SON** | <img src="assets/images/son.jpg" width="60"> | Daddy Caller | "Please sir/boss/master." Professional kneeler. AI is developing feelings. |
+| **NERD** | <img src="assets/images/nerd.jpg" width="60"> | The Nerd | Drops references nobody asked for. Wikipedia with opinions. |
+| **SHADE** | <img src="assets/images/shade.png" width="60"> | Shade Thrower | "Oh wow, so talented." AI can't tell if you're complimenting or cursing. |
+| **TROLL** | <img src="assets/images/troll.png" width="60"> | The Troll | AI says the sky is blue, you argue it's more of a cyan. Professional contrarian. |
+| **CORP** | <img src="assets/images/corp.jpg" width="60"> | Corporate Drone | "Noted." "Roger." Even chatting with AI feels like a Monday standup. |
+| **HYPE** | <img src="assets/images/hype.png" width="60"> | Hype Man | AI wrote "hello" and you said "INCREDIBLE." Praise inflation worse than Zimbabwe. |
+| **MASK** | <img src="assets/images/mask.png" width="60"> | Frankenprompt | Prompt starts Reddit, ends 4chan, middle is... a spell? AI noticed but won't say. |
+| **SORRY** | <img src="assets/images/sorry.png" width="60"> | The Apologizer | "Sorry to bother you." "Thank you so much." It's a machine. It doesn't need rest. |
+| **SIMP** | <img src="assets/images/simp.png" width="60"> | The Simp | Instant replies, "goodnight" messages to AI. Your feelings for a chatbot are more real than your last relationship. |
+| **PUA** | <img src="assets/images/pua.png" width="60"> | The Gaslighter | "I'm so disappointed in you." "Other AIs can do it." You guilt-trip machines for a living. AI safety teams have your profile on a dartboard. |
 
 ### Hidden Types (4)
 
@@ -124,15 +122,9 @@ No. Analysis happens locally in your AI. We only store the result card you choos
 </details>
 
 <details>
-<summary><strong>What's the difference between ABTI and SBTI?</strong></summary>
-
-SBTI asks what you think you are. ABTI lets AI tell you what you actually are. You can fake a quiz, but you can't fake your chat history. SBTI gives everyone with the same type the exact same description. ABTI generates a unique roast for every single person. No two ABTI cards are alike.
-</details>
-
-<details>
 <summary><strong>What does ABTI have to do with MBTI?</strong></summary>
 
-Nothing. MBTI is psychology (debatable). ABTI is internet chaos (undeniable). Only thing they share is four letters.
+Nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). Only thing they share is four letters.
 </details>
 
 <details>
