@@ -50,7 +50,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 > Cole na sua IA (ChatGPT / Claude / Openclaw, etc.) e envie
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ One of them is you. (4 are hidden. Those people need therapy.)
 - ???
 - ???
 - ???
+
+---
+
+## Quem é esse cara?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+Este é o Abi. Restam uns fios de cabelo no topo, olheiras permanentes, copo de café cirurgicamente colado à mão. Low-poly, high-stress. O mascote oficial do ABTI e um retrato de toda relação humano-IA que existe. O Abi e todos os 28 tipos de personalidade foram criados pelo [YouMind](https://youmind.com). O YouMind é uma ferramenta de aprendizado + criação com IA. Salve qualquer conteúdo (YouTube / podcasts / artigos), aprenda em profundidade a partir das suas fontes e crie artigos, imagens, slides, sites, vídeos, áudios e muito mais.
 
 ---
 

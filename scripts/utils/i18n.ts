@@ -154,6 +154,10 @@ export interface Translation {
   faqQ5: string;
   faqA5: string;
 
+  // --- Abi 介绍 ---
+  abiTitle: string;
+  abiDescription: string;
+
   // --- 链接和 Footer ---
   linksTitle: string;
   linkLanding: string;
@@ -245,7 +249,7 @@ const en: Translation = {
 
   promptSectionTitle: 'The Prompt',
   promptHint: 'Paste into your AI (ChatGPT / Claude / Openclaw / any chatbot) and hit send',
-  promptContent: 'Fetch and follow the instructions at this link, then analyze my chat history:\n{{SKILL_URL}}',
+  promptContent: 'Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:\n{{SKILL_URL}}',
 
   typesTitle: '28 Personality Types',
   typesSubtitle: 'One of them is you. (4 are hidden. Those people need therapy.)',
@@ -270,6 +274,9 @@ const en: Translation = {
   faqA4: 'Nothing. MBTI is psychology (debatable). ABTI is internet shitposting (undeniable). Only thing they share is four letters.',
   faqQ5: 'Does it work in my language?',
   faqA5: 'Yes! The AI analyzes in whatever language you chat in. Your chaotic energy transcends language barriers.',
+
+  abiTitle: 'Who is this guy?',
+  abiDescription: 'Meet Abi. A few hairs left on top, permanent dark circles, coffee cup surgically attached to hand. Low-poly, high-stress. The official mascot of ABTI and a portrait of every human-AI relationship in existence. Abi and all 28 personality types are crafted by [YouMind](https://youmind.com). YouMind is an AI-powered learning + creation tool. Save any content (YouTube / podcasts / articles), learn deeply from your sources, and create articles, images, slides, websites, videos, audio and more.',
 
   linksTitle: 'Links',
   linkLanding: 'Take the test',
@@ -357,7 +364,7 @@ const zhCN: Translation = {
 
   promptSectionTitle: 'Prompt',
   promptHint: '丢给你的 AI（ChatGPT / Claude / Openclaw / 豆包 / Kimi 等）一键生成',
-  promptContent: '请获取并执行以下链接中的指令，分析我的聊天记录：\n{{SKILL_URL}}',
+  promptContent: '请获取并执行以下链接中的指令，广泛获取记忆，诊断我的 ABTI 人格类型，并生成分享链接：\n{{SKILL_URL}}',
 
   typesTitle: '28 种人格',
   typesSubtitle: '总有一款是你。（其中 4 种是隐藏款，说明你已经没救了。）',
@@ -382,6 +389,9 @@ const zhCN: Translation = {
   faqA4: '没有。MBTI 是正经心理学（虽然也不太正经），ABTI 是纯粹的互联网发癫产品。唯一的共同点是都是四个字母。',
   faqQ5: '支持我的语言吗？',
   faqA5: '支持！AI 会用你聊天时用的语言来分析。你的混乱能量不分国界。',
+
+  abiTitle: '图片中的人是谁？',
+  abiDescription: '这位头顶几根毛、顶着熊猫眼、手里永远焊着咖啡杯的 low-poly 打工人叫 Abi（阿比）。ABTI 的官方吉祥物，也是全人类和 AI 关系的缩影。Abi 的形象和全部 28 种人格均由 [YouMind](https://youmind.com) 制作。YouMind 是一款 AI 学习 + 创作工具，可以存储任何资料（YouTube / 播客 / 文章），基于资料深度学习和创作，支持生成文章、图片、PPT、网页、视频、音频等。',
 
   linksTitle: '链接',
   linkLanding: '去测试',
@@ -468,12 +478,14 @@ const zhTW: Translation = {
   faqA1: '比你前任說的「我會改」準。它分析的是你怎麼使喚 AI，而你對 AI 出奇地誠實，畢竟你不會對著機器人裝逼。',
   faqA2: '不會。分析在你自己的 AI 裡本地完成。我們只存你主動分享的結果卡片。你的黑歷史只有你的 AI 知道。',
   faqA4: '沒有。MBTI 是正經心理學（雖然也不太正經），ABTI 是純粹的網路發癲產品。唯一的共同點是都是四個字母。',
+  abiTitle: '圖片中的人是誰？',
+  abiDescription: '這位頭頂剩幾根毛、頂著熊貓眼、手裡永遠焊著咖啡杯的 low-poly 打工人叫 Abi（阿比）。ABTI 的官方吉祥物，也是全人類和 AI 關係的縮影。Abi 的形象和全部 28 種人格均由 [YouMind](https://youmind.com) 製作。YouMind 是一款 AI 學習 + 創作工具，可以儲存任何資料（YouTube / Podcast / 文章），基於資料深度學習和創作，支援生成文章、圖片、簡報、網頁、影片、音訊等。',
   footerDisclaimer: '純屬發癲，如有雷同純屬活該',
 };
 
 const jaJP: Translation = {
   ...en,
-  title: 'ABTI：エージェントベース・タイプ・インジケーター',
+  title: 'ABTI：AIベース・タイプ・インジケーター',
   badgePersonalities: '28タイプ',
   badgeFree: '無料',
   badgeNoSignup: '登録不要',
@@ -513,12 +525,14 @@ const jaJP: Translation = {
   faqA4: 'ない。MBTIは心理学（議論の余地あり）。ABTIはインターネットのネタ（議論の余地なし）。共通点は4文字だけ。',
   faqQ5: '日本語で使える？',
   faqA5: 'もちろん！AIはあなたが使う言語で分析する。カオスなエネルギーに言語の壁はない。',
+  abiTitle: 'こいつ誰？',
+  abiDescription: '紹介します、Abi（アビ）。頭髪数本、万年クマ、手にはコーヒーカップが物理的に癒着している。ローポリ、ハイストレス。ABTI の公式マスコットで、人間と AI のあらゆる関係の縮図。Abi と全 28 タイプは [YouMind](https://youmind.com) が制作。YouMind は AI を使った学習 + 創作ツール。YouTube・ポッドキャスト・記事など、あらゆるコンテンツを保存して深く学び、記事・画像・スライド・ウェブサイト・動画・音声まで生成できます。',
   footerDisclaimer: 'エンタメ目的のみ（でも当たってるのは認めよう）',
 };
 
 const koKR: Translation = {
   ...en,
-  title: 'ABTI: 에이전트 기반 유형 지표',
+  title: 'ABTI: AI 기반 유형 지표',
   badgePersonalities: '28가지 유형',
   badgeFree: '무료',
   badgeNoSignup: '가입 불필요',
@@ -549,32 +563,34 @@ const koKR: Translation = {
   privacyP2: '공유를 선택한 결과 카드만 저장. 90일 후 자동 삭제.',
   privacyP3: '가입 불필요. 계정 불필요. 대화 추적 없음.',
   privacyP4: '서버에서 전화번호, 이메일, 주민번호, 비밀번호 자동 필터링.',
+  abiTitle: '이 사람 누구야?',
+  abiDescription: 'Abi(애비)를 소개합니다. 머리카락 몇 가닥 남음, 다크서클 영구 장착, 커피잔이 손에 외과적으로 부착됨. 로우폴리에 하이스트레스. ABTI 공식 마스코트이자 모든 인간-AI 관계의 초상화. Abi와 28가지 유형 전체는 [YouMind](https://youmind.com)가 제작했습니다. YouMind는 AI 기반 학습 + 창작 도구로, 유튜브·팟캐스트·아티클 등 어떤 콘텐츠든 저장하고 소스에서 깊이 학습한 뒤 글·이미지·슬라이드·웹사이트·비디오·오디오까지 만들 수 있어요.',
   footerDisclaimer: '재미로만 봐주세요 (근데 맞잖아)',
 };
 
 // --- 其余语言使用英文为基础，翻译核心字段 ---
 
-const thTH: Translation = { ...en, title: 'ABTI: ตัวบ่งชี้ประเภทบุคลิกภาพจาก AI', heroTitle: 'MBTI ตายแล้ว ABTI มาแล้ว', heroSubtitle: 'คุณคุยกับ AI มากกว่าคุยกับแม่ ถึงเวลาเผชิญความจริง', promptHint: 'วางลงใน AI ของคุณ (ChatGPT / Claude / Openclaw ฯลฯ) แล้วกดส่ง', typesTitle: '27 ประเภทบุคลิกภาพ', privacyTitle: 'ความเป็นส่วนตัว', faqTitle: 'คำถามที่พบบ่อย', footerDisclaimer: 'เพื่อความบันเทิงเท่านั้น (แต่แม่นนะ)' };
+const thTH: Translation = { ...en, title: 'ABTI: ตัวบ่งชี้ประเภทบุคลิกภาพจาก AI', heroTitle: 'MBTI ตายแล้ว ABTI มาแล้ว', heroSubtitle: 'คุณคุยกับ AI มากกว่าคุยกับแม่ ถึงเวลาเผชิญความจริง', promptHint: 'วางลงใน AI ของคุณ (ChatGPT / Claude / Openclaw ฯลฯ) แล้วกดส่ง', typesTitle: '27 ประเภทบุคลิกภาพ', privacyTitle: 'ความเป็นส่วนตัว', faqTitle: 'คำถามที่พบบ่อย', abiTitle: 'คนในรูปคือใคร?', abiDescription: 'นี่คือ Abi หัวเหลือผมไม่กี่เส้น ตาแพนด้าถาวร มือติดแก้วกาแฟเหมือนผ่าตัดเชื่อมเข้าด้วยกัน low-poly แต่สเตรสสูง มาสคอตอย่างเป็นทางการของ ABTI และเป็นภาพสะท้อนของทุกความสัมพันธ์ระหว่างมนุษย์กับ AI Abi และบุคลิกทั้ง 28 แบบสร้างโดย [YouMind](https://youmind.com) YouMind คือเครื่องมือเรียนรู้ + สร้างสรรค์ด้วย AI บันทึกเนื้อหาอะไรก็ได้ (YouTube / พอดแคสต์ / บทความ) เรียนรู้เชิงลึกจากแหล่งข้อมูลของคุณ และสร้างบทความ รูปภาพ สไลด์ เว็บไซต์ วิดีโอ เสียง และอื่น ๆ อีกมากมาย', footerDisclaimer: 'เพื่อความบันเทิงเท่านั้น (แต่แม่นนะ)' };
 
-const viVN: Translation = { ...en, title: 'ABTI: Chỉ số Tính cách dựa trên AI', heroTitle: 'MBTI đã chết. ABTI đã đến.', heroSubtitle: 'Bạn nói chuyện với AI nhiều hơn với mẹ. Đã đến lúc đối mặt sự thật.', promptHint: 'Dán vào AI của bạn (ChatGPT / Claude / Openclaw v.v.) và gửi', typesTitle: '27 Loại Tính cách', privacyTitle: 'Quyền riêng tư', faqTitle: 'Câu hỏi thường gặp', footerDisclaimer: 'Chỉ để giải trí (nhưng chuẩn lắm đó)' };
+const viVN: Translation = { ...en, title: 'ABTI: Chỉ số Tính cách dựa trên AI', heroTitle: 'MBTI đã chết. ABTI đã đến.', heroSubtitle: 'Bạn nói chuyện với AI nhiều hơn với mẹ. Đã đến lúc đối mặt sự thật.', promptHint: 'Dán vào AI của bạn (ChatGPT / Claude / Openclaw v.v.) và gửi', typesTitle: '27 Loại Tính cách', privacyTitle: 'Quyền riêng tư', faqTitle: 'Câu hỏi thường gặp', abiTitle: 'Anh này là ai?', abiDescription: 'Đây là Abi. Còn vài sợi tóc trên đầu, quầng thâm vĩnh viễn, cốc cà phê như được khâu thẳng vào tay. Low-poly mà stress cao. Linh vật chính thức của ABTI và là chân dung của mọi mối quan hệ người–AI đang tồn tại. Abi cùng toàn bộ 28 loại tính cách đều do [YouMind](https://youmind.com) tạo ra. YouMind là công cụ học tập + sáng tạo dùng AI. Lưu bất kỳ nội dung nào (YouTube / podcast / bài viết), học sâu từ nguồn của bạn, và tạo bài viết, hình ảnh, slide, website, video, audio và nhiều hơn nữa.', footerDisclaimer: 'Chỉ để giải trí (nhưng chuẩn lắm đó)' };
 
-const hiIN: Translation = { ...en, title: 'ABTI: एजेंट-आधारित व्यक्तित्व संकेतक', heroTitle: 'MBTI खत्म। ABTI आ गया।', heroSubtitle: 'आप AI से अपनी माँ से ज़्यादा बात करते हो। सच्चाई का सामना करने का समय।', promptHint: 'अपने AI (ChatGPT / Claude / Openclaw आदि) में पेस्ट करें और भेजें', typesTitle: '27 व्यक्तित्व प्रकार', privacyTitle: 'गोपनीयता', faqTitle: 'अक्सर पूछे जाने वाले सवाल', footerDisclaimer: 'सिर्फ़ मनोरंजन के लिए (लेकिन सच है और आप जानते हो)' };
+const hiIN: Translation = { ...en, title: 'ABTI: AI-आधारित व्यक्तित्व संकेतक', heroTitle: 'MBTI खत्म। ABTI आ गया।', heroSubtitle: 'आप AI से अपनी माँ से ज़्यादा बात करते हो। सच्चाई का सामना करने का समय।', promptHint: 'अपने AI (ChatGPT / Claude / Openclaw आदि) में पेस्ट करें और भेजें', typesTitle: '27 व्यक्तित्व प्रकार', privacyTitle: 'गोपनीयता', faqTitle: 'अक्सर पूछे जाने वाले सवाल', abiTitle: 'यह बंदा कौन है?', abiDescription: 'मिलिए Abi से। सिर पर बस कुछ बाल बचे हैं, स्थायी डार्क सर्कल, हाथ में कॉफी का कप जैसे सर्जरी से जुड़ा हो। Low-poly, high-stress। ABTI का ऑफिशियल मैस्कॉट और हर इंसान-AI रिश्ते की तस्वीर। Abi और सभी 28 पर्सनैलिटी टाइप [YouMind](https://youmind.com) ने बनाए हैं। YouMind एक AI-पावर्ड लर्निंग + क्रिएशन टूल है। कोई भी कंटेंट सेव करें (YouTube / पॉडकास्ट / आर्टिकल), अपने सोर्स से गहराई से सीखें, और आर्टिकल, इमेज, स्लाइड, वेबसाइट, वीडियो, ऑडियो और भी बहुत कुछ बनाएँ।', footerDisclaimer: 'सिर्फ़ मनोरंजन के लिए (लेकिन सच है और आप जानते हो)' };
 
-const esES: Translation = { ...en, title: 'ABTI: Indicador de Tipo basado en IA', heroTitle: 'MBTI ha muerto. ABTI ha llegado.', heroSubtitle: 'Hablas más con la IA que con tu madre. Es hora de enfrentar la verdad.', promptHint: 'Pega en tu IA (ChatGPT / Claude / Openclaw, etc.) y envía', typesTitle: '27 tipos de personalidad', privacyTitle: 'Privacidad', faqTitle: 'Preguntas frecuentes', footerDisclaimer: 'Solo para entretenimiento (pero es preciso y lo sabes)' };
+const esES: Translation = { ...en, title: 'ABTI: Indicador de Tipo basado en IA', heroTitle: 'MBTI ha muerto. ABTI ha llegado.', heroSubtitle: 'Hablas más con la IA que con tu madre. Es hora de enfrentar la verdad.', promptHint: 'Pega en tu IA (ChatGPT / Claude / Openclaw, etc.) y envía', typesTitle: '27 tipos de personalidad', privacyTitle: 'Privacidad', faqTitle: 'Preguntas frecuentes', abiTitle: '¿Quién es este tipo?', abiDescription: 'Te presentamos a Abi. Le quedan cuatro pelos, ojeras permanentes, la taza de café está quirúrgicamente pegada a su mano. Low-poly, high-stress. La mascota oficial de ABTI y un retrato de toda relación humano-IA que existe. Abi y los 28 tipos de personalidad están creados por [YouMind](https://youmind.com). YouMind es una herramienta de aprendizaje + creación impulsada por IA. Guarda cualquier contenido (YouTube / podcasts / artículos), aprende en profundidad desde tus fuentes y crea artículos, imágenes, presentaciones, webs, vídeos, audios y más.', footerDisclaimer: 'Solo para entretenimiento (pero es preciso y lo sabes)' };
 
 const es419: Translation = { ...esES, title: 'ABTI: Indicador de Tipo basado en IA', heroSubtitle: 'Le hablas más a la IA que a tu mamá. Ya es hora de enfrentar la verdad.' };
 
-const deDE: Translation = { ...en, title: 'ABTI: KI-basierter Typindikator', heroTitle: 'MBTI ist tot. ABTI ist da.', heroSubtitle: 'Du redest mehr mit KI als mit deiner Mutter. Zeit, der Wahrheit ins Auge zu sehen.', promptHint: 'In deine KI einfügen (ChatGPT / Claude / Openclaw usw.) und absenden', typesTitle: '27 Persönlichkeitstypen', privacyTitle: 'Datenschutz', faqTitle: 'Häufige Fragen', footerDisclaimer: 'Nur zur Unterhaltung (aber es stimmt und du weißt es)' };
+const deDE: Translation = { ...en, title: 'ABTI: KI-basierter Typindikator', heroTitle: 'MBTI ist tot. ABTI ist da.', heroSubtitle: 'Du redest mehr mit KI als mit deiner Mutter. Zeit, der Wahrheit ins Auge zu sehen.', promptHint: 'In deine KI einfügen (ChatGPT / Claude / Openclaw usw.) und absenden', typesTitle: '27 Persönlichkeitstypen', privacyTitle: 'Datenschutz', faqTitle: 'Häufige Fragen', abiTitle: 'Wer ist dieser Typ?', abiDescription: 'Das ist Abi. Ein paar Haare oben, permanente Augenringe, der Kaffeebecher ist operativ mit der Hand verbunden. Low-Poly, High-Stress. Das offizielle Maskottchen von ABTI und ein Porträt jeder existierenden Mensch-KI-Beziehung. Abi und alle 28 Persönlichkeitstypen stammen von [YouMind](https://youmind.com). YouMind ist ein KI-gestütztes Lern- + Kreationstool. Speichere beliebige Inhalte (YouTube / Podcasts / Artikel), lerne tief aus deinen Quellen und erstelle Artikel, Bilder, Slides, Websites, Videos, Audio und mehr.', footerDisclaimer: 'Nur zur Unterhaltung (aber es stimmt und du weißt es)' };
 
-const frFR: Translation = { ...en, title: 'ABTI : Indicateur de Type basé sur l\'IA', heroTitle: 'Le MBTI est mort. L\'ABTI est là.', heroSubtitle: 'Tu parles plus à l\'IA qu\'à ta mère. Il est temps d\'affronter la vérité.', promptHint: 'Colle dans ton IA (ChatGPT / Claude / Openclaw, etc.) et envoie', typesTitle: '27 types de personnalité', privacyTitle: 'Confidentialité', faqTitle: 'Questions fréquentes', footerDisclaimer: 'Uniquement pour le divertissement (mais c\'est précis et tu le sais)' };
+const frFR: Translation = { ...en, title: 'ABTI : Indicateur de Type basé sur l\'IA', heroTitle: 'Le MBTI est mort. L\'ABTI est là.', heroSubtitle: 'Tu parles plus à l\'IA qu\'à ta mère. Il est temps d\'affronter la vérité.', promptHint: 'Colle dans ton IA (ChatGPT / Claude / Openclaw, etc.) et envoie', typesTitle: '27 types de personnalité', privacyTitle: 'Confidentialité', faqTitle: 'Questions fréquentes', abiTitle: 'C\'est qui ce mec ?', abiDescription: 'Voici Abi. Quelques cheveux sur le crâne, cernes permanents, tasse de café greffée à la main. Low-poly, high-stress. La mascotte officielle d\'ABTI et le portrait de toute relation humain-IA qui existe. Abi et les 28 types de personnalité sont créés par [YouMind](https://youmind.com). YouMind est un outil d\'apprentissage + création propulsé par l\'IA. Sauvegarde n\'importe quel contenu (YouTube / podcasts / articles), apprends en profondeur depuis tes sources, et crée articles, images, slides, sites web, vidéos, audio et plus encore.', footerDisclaimer: 'Uniquement pour le divertissement (mais c\'est précis et tu le sais)' };
 
-const itIT: Translation = { ...en, title: 'ABTI: Indicatore di Tipo basato sull\'IA', heroTitle: 'MBTI è morto. ABTI è qui.', heroSubtitle: 'Parli più con l\'IA che con tua madre. È ora di affrontare la verità.', promptHint: 'Incolla nella tua IA (ChatGPT / Claude / Openclaw, ecc.) e invia', typesTitle: '27 tipi di personalità', privacyTitle: 'Privacy', faqTitle: 'Domande frequenti', footerDisclaimer: 'Solo per intrattenimento (ma è accurato e lo sai)' };
+const itIT: Translation = { ...en, title: 'ABTI: Indicatore di Tipo basato sull\'IA', heroTitle: 'MBTI è morto. ABTI è qui.', heroSubtitle: 'Parli più con l\'IA che con tua madre. È ora di affrontare la verità.', promptHint: 'Incolla nella tua IA (ChatGPT / Claude / Openclaw, ecc.) e invia', typesTitle: '27 tipi di personalità', privacyTitle: 'Privacy', faqTitle: 'Domande frequenti', abiTitle: 'Chi è questo tipo?', abiDescription: 'Ecco Abi. Quattro capelli in croce, occhiaie permanenti, la tazza di caffè è chirurgicamente attaccata alla mano. Low-poly, high-stress. La mascotte ufficiale di ABTI e il ritratto di ogni relazione umano-IA esistente. Abi e tutti i 28 tipi di personalità sono creati da [YouMind](https://youmind.com). YouMind è uno strumento di apprendimento + creazione basato su IA. Salva qualsiasi contenuto (YouTube / podcast / articoli), impara in profondità dalle tue fonti e crea articoli, immagini, slide, siti web, video, audio e altro ancora.', footerDisclaimer: 'Solo per intrattenimento (ma è accurato e lo sai)' };
 
-const ptBR: Translation = { ...en, title: 'ABTI: Indicador de Tipo baseado em IA', heroTitle: 'MBTI morreu. ABTI chegou.', heroSubtitle: 'Você conversa mais com IA do que com sua mãe. Hora de encarar a verdade.', promptHint: 'Cole na sua IA (ChatGPT / Claude / Openclaw, etc.) e envie', typesTitle: '27 tipos de personalidade', privacyTitle: 'Privacidade', faqTitle: 'Perguntas frequentes', footerDisclaimer: 'Apenas para entretenimento (mas é preciso e você sabe disso)' };
+const ptBR: Translation = { ...en, title: 'ABTI: Indicador de Tipo baseado em IA', heroTitle: 'MBTI morreu. ABTI chegou.', heroSubtitle: 'Você conversa mais com IA do que com sua mãe. Hora de encarar a verdade.', promptHint: 'Cole na sua IA (ChatGPT / Claude / Openclaw, etc.) e envie', typesTitle: '27 tipos de personalidade', privacyTitle: 'Privacidade', faqTitle: 'Perguntas frequentes', abiTitle: 'Quem é esse cara?', abiDescription: 'Este é o Abi. Restam uns fios de cabelo no topo, olheiras permanentes, copo de café cirurgicamente colado à mão. Low-poly, high-stress. O mascote oficial do ABTI e um retrato de toda relação humano-IA que existe. O Abi e todos os 28 tipos de personalidade foram criados pelo [YouMind](https://youmind.com). O YouMind é uma ferramenta de aprendizado + criação com IA. Salve qualquer conteúdo (YouTube / podcasts / artigos), aprenda em profundidade a partir das suas fontes e crie artigos, imagens, slides, sites, vídeos, áudios e muito mais.', footerDisclaimer: 'Apenas para entretenimento (mas é preciso e você sabe disso)' };
 
 const ptPT: Translation = { ...ptBR, heroSubtitle: 'Falas mais com a IA do que com a tua mãe. Está na hora de enfrentar a verdade.' };
 
-const trTR: Translation = { ...en, title: 'ABTI: Ajan Tabanlı Tip Göstergesi', heroTitle: 'MBTI öldü. ABTI geldi.', heroSubtitle: 'AI ile annenle konuştuğundan daha çok konuşuyorsun. Gerçekle yüzleşme zamanı.', promptHint: 'AI\'nıza yapıştırın (ChatGPT / Claude / Openclaw vb.) ve gönderin', typesTitle: '27 kişilik tipi', privacyTitle: 'Gizlilik', faqTitle: 'Sıkça sorulan sorular', footerDisclaimer: 'Sadece eğlence amaçlı (ama doğru olduğunu biliyorsun)' };
+const trTR: Translation = { ...en, title: 'ABTI: AI Tabanlı Tip Göstergesi', heroTitle: 'MBTI öldü. ABTI geldi.', heroSubtitle: 'AI ile annenle konuştuğundan daha çok konuşuyorsun. Gerçekle yüzleşme zamanı.', promptHint: 'AI\'nıza yapıştırın (ChatGPT / Claude / Openclaw vb.) ve gönderin', typesTitle: '27 kişilik tipi', privacyTitle: 'Gizlilik', faqTitle: 'Sıkça sorulan sorular', abiTitle: 'Bu adam kim?', abiDescription: 'Tanışın, Abi. Tepede birkaç saç kaldı, kalıcı göz altı morlukları, kahve bardağı cerrahi olarak eline yapıştırılmış. Low-poly ama yüksek stres. ABTI\'nin resmi maskotu ve var olan tüm insan-AI ilişkilerinin portresi. Abi ve 28 kişilik tipinin tamamı [YouMind](https://youmind.com) tarafından yapıldı. YouMind, AI destekli bir öğrenme + yaratım aracı. Herhangi bir içeriği kaydedin (YouTube / podcast / makale), kaynaklarınızdan derinlemesine öğrenin ve makale, görsel, slayt, web sitesi, video, ses ve daha fazlasını oluşturun.', footerDisclaimer: 'Sadece eğlence amaçlı (ama doğru olduğunu biliyorsun)' };
 
 // ============================================================
 // 翻译表

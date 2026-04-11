@@ -1,4 +1,4 @@
-# 🎭 ABTI: Ajan Tabanlı Tip Göstergesi
+# 🎭 ABTI: AI Tabanlı Tip Göstergesi
 
 [![](https://img.shields.io/badge/28%20Personalities-purple)]()
 [![](https://img.shields.io/badge/Free-brightgreen)]()
@@ -50,7 +50,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 > AI'nıza yapıştırın (ChatGPT / Claude / Openclaw vb.) ve gönderin
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ One of them is you. (4 are hidden. Those people need therapy.)
 - ???
 - ???
 - ???
+
+---
+
+## Bu adam kim?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+Tanışın, Abi. Tepede birkaç saç kaldı, kalıcı göz altı morlukları, kahve bardağı cerrahi olarak eline yapıştırılmış. Low-poly ama yüksek stres. ABTI'nin resmi maskotu ve var olan tüm insan-AI ilişkilerinin portresi. Abi ve 28 kişilik tipinin tamamı [YouMind](https://youmind.com) tarafından yapıldı. YouMind, AI destekli bir öğrenme + yaratım aracı. Herhangi bir içeriği kaydedin (YouTube / podcast / makale), kaynaklarınızdan derinlemesine öğrenin ve makale, görsel, slayt, web sitesi, video, ses ve daha fazlasını oluşturun.
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎭 ABTI: 에이전트 기반 유형 지표
+# 🎭 ABTI: AI 기반 유형 지표
 
 [![](https://img.shields.io/badge/28%EA%B0%80%EC%A7%80%20%EC%9C%A0%ED%98%95-purple)]()
 [![](https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-brightgreen)]()
@@ -50,7 +50,7 @@ AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유
 > 당신의 AI(ChatGPT / Claude / Openclaw 등)에 붙여넣고 전송
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ https://youmind.com/abti-api/skill.md
 - ???
 - ???
 - ???
+
+---
+
+## 이 사람 누구야?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+Abi(애비)를 소개합니다. 머리카락 몇 가닥 남음, 다크서클 영구 장착, 커피잔이 손에 외과적으로 부착됨. 로우폴리에 하이스트레스. ABTI 공식 마스코트이자 모든 인간-AI 관계의 초상화. Abi와 28가지 유형 전체는 [YouMind](https://youmind.com)가 제작했습니다. YouMind는 AI 기반 학습 + 창작 도구로, 유튜브·팟캐스트·아티클 등 어떤 콘텐츠든 저장하고 소스에서 깊이 학습한 뒤 글·이미지·슬라이드·웹사이트·비디오·오디오까지 만들 수 있어요.
 
 ---
 

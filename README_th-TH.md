@@ -50,7 +50,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 > วางลงใน AI ของคุณ (ChatGPT / Claude / Openclaw ฯลฯ) แล้วกดส่ง
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ One of them is you. (4 are hidden. Those people need therapy.)
 - ???
 - ???
 - ???
+
+---
+
+## คนในรูปคือใคร?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+นี่คือ Abi หัวเหลือผมไม่กี่เส้น ตาแพนด้าถาวร มือติดแก้วกาแฟเหมือนผ่าตัดเชื่อมเข้าด้วยกัน low-poly แต่สเตรสสูง มาสคอตอย่างเป็นทางการของ ABTI และเป็นภาพสะท้อนของทุกความสัมพันธ์ระหว่างมนุษย์กับ AI Abi และบุคลิกทั้ง 28 แบบสร้างโดย [YouMind](https://youmind.com) YouMind คือเครื่องมือเรียนรู้ + สร้างสรรค์ด้วย AI บันทึกเนื้อหาอะไรก็ได้ (YouTube / พอดแคสต์ / บทความ) เรียนรู้เชิงลึกจากแหล่งข้อมูลของคุณ และสร้างบทความ รูปภาพ สไลด์ เว็บไซต์ วิดีโอ เสียง และอื่น ๆ อีกมากมาย
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎭 ABTI：エージェントベース・タイプ・インジケーター
+# 🎭 ABTI：AIベース・タイプ・インジケーター
 
 [![](https://img.shields.io/badge/28%E3%82%BF%E3%82%A4%E3%83%97-purple)]()
 [![](https://img.shields.io/badge/%E7%84%A1%E6%96%99-brightgreen)]()
@@ -50,7 +50,7 @@ AIがチャット履歴を分析して、あなたが何者か教えてくれる
 > あなたのAI（ChatGPT / Claude / Openclaw など）に貼り付けて送信
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ https://youmind.com/abti-api/skill.md
 - ???
 - ???
 - ???
+
+---
+
+## こいつ誰？
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+紹介します、Abi（アビ）。頭髪数本、万年クマ、手にはコーヒーカップが物理的に癒着している。ローポリ、ハイストレス。ABTI の公式マスコットで、人間と AI のあらゆる関係の縮図。Abi と全 28 タイプは [YouMind](https://youmind.com) が制作。YouMind は AI を使った学習 + 創作ツール。YouTube・ポッドキャスト・記事など、あらゆるコンテンツを保存して深く学び、記事・画像・スライド・ウェブサイト・動画・音声まで生成できます。
 
 ---
 

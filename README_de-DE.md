@@ -50,7 +50,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 > In deine KI einfügen (ChatGPT / Claude / Openclaw usw.) und absenden
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ One of them is you. (4 are hidden. Those people need therapy.)
 - ???
 - ???
 - ???
+
+---
+
+## Wer ist dieser Typ?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+Das ist Abi. Ein paar Haare oben, permanente Augenringe, der Kaffeebecher ist operativ mit der Hand verbunden. Low-Poly, High-Stress. Das offizielle Maskottchen von ABTI und ein Porträt jeder existierenden Mensch-KI-Beziehung. Abi und alle 28 Persönlichkeitstypen stammen von [YouMind](https://youmind.com). YouMind ist ein KI-gestütztes Lern- + Kreationstool. Speichere beliebige Inhalte (YouTube / Podcasts / Artikel), lerne tief aus deinen Quellen und erstelle Artikel, Bilder, Slides, Websites, Videos, Audio und mehr.
 
 ---
 

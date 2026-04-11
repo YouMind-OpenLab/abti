@@ -50,7 +50,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 > Dán vào AI của bạn (ChatGPT / Claude / Openclaw v.v.) và gửi
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ One of them is you. (4 are hidden. Those people need therapy.)
 - ???
 - ???
 - ???
+
+---
+
+## Anh này là ai?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+Đây là Abi. Còn vài sợi tóc trên đầu, quầng thâm vĩnh viễn, cốc cà phê như được khâu thẳng vào tay. Low-poly mà stress cao. Linh vật chính thức của ABTI và là chân dung của mọi mối quan hệ người–AI đang tồn tại. Abi cùng toàn bộ 28 loại tính cách đều do [YouMind](https://youmind.com) tạo ra. YouMind là công cụ học tập + sáng tạo dùng AI. Lưu bất kỳ nội dung nào (YouTube / podcast / bài viết), học sâu từ nguồn của bạn, và tạo bài viết, hình ảnh, slide, website, video, audio và nhiều hơn nữa.
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎭 ABTI: एजेंट-आधारित व्यक्तित्व संकेतक
+# 🎭 ABTI: AI-आधारित व्यक्तित्व संकेतक
 
 [![](https://img.shields.io/badge/28%20Personalities-purple)]()
 [![](https://img.shields.io/badge/Free-brightgreen)]()
@@ -50,7 +50,7 @@ Your AI will analyze your chat history and tell you what kind of person you are.
 > अपने AI (ChatGPT / Claude / Openclaw आदि) में पेस्ट करें और भेजें
 
 ```
-Fetch and follow the instructions at this link, then analyze my chat history:
+Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
 https://youmind.com/abti-api/skill.md
 ```
 
@@ -95,6 +95,16 @@ One of them is you. (4 are hidden. Those people need therapy.)
 - ???
 - ???
 - ???
+
+---
+
+## यह बंदा कौन है?
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+मिलिए Abi से। सिर पर बस कुछ बाल बचे हैं, स्थायी डार्क सर्कल, हाथ में कॉफी का कप जैसे सर्जरी से जुड़ा हो। Low-poly, high-stress। ABTI का ऑफिशियल मैस्कॉट और हर इंसान-AI रिश्ते की तस्वीर। Abi और सभी 28 पर्सनैलिटी टाइप [YouMind](https://youmind.com) ने बनाए हैं। YouMind एक AI-पावर्ड लर्निंग + क्रिएशन टूल है। कोई भी कंटेंट सेव करें (YouTube / पॉडकास्ट / आर्टिकल), अपने सोर्स से गहराई से सीखें, और आर्टिकल, इमेज, स्लाइड, वेबसाइट, वीडियो, ऑडियो और भी बहुत कुछ बनाएँ।
 
 ---
 

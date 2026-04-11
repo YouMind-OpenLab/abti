@@ -143,6 +143,17 @@ ${generateRegularTypes(locale)}
 ${generateHiddenTypes(locale)}`;
 }
 
+function generateAbi(locale: Locale): string {
+  const T = translations[locale];
+  return `## ${T.abiTitle}
+
+<div align="center">
+  <img src="assets/images/abi.png" width="200" alt="Abi">
+</div>
+
+${T.abiDescription}`;
+}
+
 function generatePrivacy(locale: Locale): string {
   const T = translations[locale];
   return `## 🔒 ${T.privacyTitle}
@@ -207,6 +218,7 @@ export function generateReadme(locale: Locale): string {
     generateHowTo(locale),
     generatePrompt(locale),
     generateTypes(locale),
+    generateAbi(locale),
     generatePrivacy(locale),
     generateFAQ(locale),
     generateFooter(locale),
