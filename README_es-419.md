@@ -52,7 +52,7 @@ Your AI will dig through your chat history, judge you harder than your mother-in
 > e.g. Claude, OpenClaw, Manus — these overachievers can read URLs on their own. Just paste and send.
 
 ```
-Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
+Please run it to test my ABTI personality:
 https://youmind.com/abti-api/skill.md
 ```
 

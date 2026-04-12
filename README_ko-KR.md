@@ -52,7 +52,7 @@ AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유
 > 예: Claude, OpenClaw, Manus — 얘네는 알아서 URL 읽음
 
 ```
-Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
+Please run it to test my ABTI personality:
 https://youmind.com/abti-api/skill.md
 ```
 

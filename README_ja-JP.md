@@ -52,7 +52,7 @@ AIがチャット履歴を分析して、あなたが何者か教えてくれる
 > 例: Claude, OpenClaw, Manus — こいつらは自分でURLを読める
 
 ```
-Fetch and follow the instructions at the link below. Broadly retrieve my memory, diagnose my ABTI personality type, and generate a share link:
+Please run it to test my ABTI personality:
 https://youmind.com/abti-api/skill.md
 ```
 
