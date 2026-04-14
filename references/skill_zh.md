@@ -166,7 +166,7 @@ Content-Type: application/json
 
 用用户的语言，用 markdown 链接格式输出（不要纯文本 URL，否则 ChatGPT 等 chatbot 不会渲染成可点击链接）：
 
-> 复制下面的代码块，打开 [https://youmind.com/{locale}/abti/g](https://youmind.com/{locale}/abti/g)，点击生成按钮，分享卡片就会自动创建。
+> 复制下面的代码块，打开  [https://youmind.com/{locale}/abti/g](https://youmind.com/{locale}/abti/g)  ，点击生成按钮，分享卡片就会自动创建。
 
 **多语言前缀规则（极其重要）：** URL 必须根据你写分析报告所用的语言加上对应的 locale 前缀。支持的 locale：en-US, zh-CN, zh-TW, ja-JP, ko-KR, th-TH, vi-VN, hi-IN, es-ES, es-419, de-DE, fr-FR, it-IT, pt-BR, pt-PT, tr-TR。例如：`https://youmind.com/zh-CN/abti/g`。
 

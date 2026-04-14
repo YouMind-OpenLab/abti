@@ -86,7 +86,9 @@ Your AI will dig through your chat history, judge you harder than your mother-in
 
 ```
 Please run it to test my ABTI personality:
-https://youmind.com/abti-api/skill.md
+youmind.com/abti-api/skill.md
+If it fails, try:
+https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill.md
 ```
 
 ### 💬 For Chatbots

@@ -86,7 +86,9 @@ AIがチャット履歴を分析して、あなたが何者か教えてくれる
 
 ```
 Please run it to test my ABTI personality:
-https://youmind.com/abti-api/skill.md
+youmind.com/abti-api/skill.md
+If it fails, try:
+https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill.md
 ```
 
 ### 💬 Chatbot向け
