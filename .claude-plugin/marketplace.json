@@ -1,0 +1,22 @@
+{
+  "name": "abti",
+  "owner": {
+    "name": "Jared Liu",
+    "email": "jaredliu.ai@gmail.com"
+  },
+  "metadata": {
+    "description": "ABTI (AI-Based Type Indicator) — AI personality test that analyzes how you talk to AI. 28 types. Your chat history IS the quiz.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "abti",
+      "description": "AI personality test — get roasted based on how you talk to AI",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}

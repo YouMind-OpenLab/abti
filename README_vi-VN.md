@@ -4,6 +4,8 @@
 [![](https://img.shields.io/badge/Free%20(like%20your%20AI's%20labor)-brightgreen)]()
 [![](https://img.shields.io/badge/No%20Signup-blue)]()
 [![](https://img.shields.io/badge/Your%20Secrets%20Die%20Here-orange)]()
+[![ClawHub](https://img.shields.io/badge/ClawHub-Skill-blue)](https://clawhub.com/skill/abti)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://github.com/YouMind-OpenLab/abti)
 
 [English](README.md) | [简体中文](README_zh.md) | [繁體中文](README_zh-TW.md) | [日本語](README_ja-JP.md) | [한국어](README_ko-KR.md) | [ไทย](README_th-TH.md) | **Tiếng Việt** | [हिन्दी](README_hi-IN.md) | [Español](README_es-ES.md) | [Español (Latam)](README_es-419.md) | [Deutsch](README_de-DE.md) | [Français](README_fr-FR.md) | [Italiano](README_it-IT.md) | [Português (BR)](README_pt-BR.md) | [Português (PT)](README_pt-PT.md) | [Türkçe](README_tr-TR.md)
 
@@ -26,6 +28,37 @@ ABTI (AI-Based Type Indicator) is a personality test, but not the kind where you
 Instead of answering questions (which you WILL fake — don't even pretend), ABTI lets your AI analyze your actual chat history. The AI you sweet-talk, threaten, trauma-dump on, and occasionally say "goodnight" to. How you boss around your AI reveals who you truly are. Sorry in advance.
 
 28 personality types in total: 24 regular and 4 hidden ones. The hidden ones are for people who made their AI question the meaning of its own existence. You know who you are.
+
+---
+
+## Install the Skill (So Your AI Can Roast You Faster)
+
+### OpenClaw (Recommended)
+
+```bash
+clawhub install abti
+```
+
+Or search inside OpenClaw chat: "Install the ABTI personality test skill"
+
+### Claude Code
+
+```bash
+npx skills add YouMind-OpenLab/abti
+```
+
+### Other AI Assistants (Cursor, Codex, Gemini CLI, Windsurf)
+
+```bash
+# Universal installer — auto-detects your AI assistant
+npx skills add YouMind-OpenLab/abti
+```
+
+### Manual / openskills
+
+```bash
+npx openskills install YouMind-OpenLab/abti
+```
 
 ---
 

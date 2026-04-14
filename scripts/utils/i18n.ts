@@ -161,6 +161,17 @@ export interface Translation {
   faqQ5: string;
   faqA5: string;
 
+  // --- 安装 ---
+  installTitle: string;
+  installOpenClawTitle: string;
+  installOpenClawDesc: string;
+  installClaudeCodeTitle: string;
+  installClaudeCodeDesc: string;
+  installOtherTitle: string;
+  installOtherDesc: string;
+  installManualTitle: string;
+  installManualDesc: string;
+
   // --- Abi 介绍 ---
   abiTitle: string;
   abiDescription: string;
@@ -263,6 +274,16 @@ const en: Translation = {
   promptForChatbotTitle: '💬 For Chatbots',
   promptForChatbotHint: 'e.g. ChatGPT, Gemini, Copilot — they can\'t fetch URLs because apparently reading links is too hard. You gotta hand-deliver the instructions like room service.',
   promptForChatbotContent: '1. Open this link in your browser: {{SKILL_URL}}\n2. Select all (Ctrl+A), copy the entire page (yes, ALL of it, don\'t be lazy)\n3. Paste it into your chatbot and hit send\n4. Sit back. The roasting will commence shortly.',
+
+  installTitle: 'Install the Skill (So Your AI Can Roast You Faster)',
+  installOpenClawTitle: 'OpenClaw (Recommended)',
+  installOpenClawDesc: 'Or search inside OpenClaw chat: "Install the ABTI personality test skill"',
+  installClaudeCodeTitle: 'Claude Code',
+  installClaudeCodeDesc: '',
+  installOtherTitle: 'Other AI Assistants (Cursor, Codex, Gemini CLI, Windsurf)',
+  installOtherDesc: '',
+  installManualTitle: 'Manual / openskills',
+  installManualDesc: '',
 
   typesTitle: '28 Personality Types (a.k.a. 28 Reasons to Reconsider Your Life Choices)',
   typesSubtitle: 'One of them is you. Statistically speaking, you\'re probably a LOOP. (4 are hidden. Those people need an intervention, not a personality card.)',
@@ -384,6 +405,16 @@ const zhCN: Translation = {
   promptForChatbotTitle: '💬 给 Chatbot 用',
   promptForChatbotHint: '如 ChatGPT、Gemini、豆包 —— 它们读不了链接，因为读链接对它们来说太难了。你得像端盘子一样把指令亲手送到嘴边。',
   promptForChatbotContent: '1. 用浏览器打开这个链接：{{SKILL_URL}}\n2. 全选（Ctrl+A），复制整个页面（对，全部，别偷懒）\n3. 粘贴给你的 AI，发送\n4. 坐好。制裁马上开始。',
+
+  installTitle: '安装 Skill（让你的 AI 更高效地制裁你）',
+  installOpenClawTitle: 'OpenClaw（推荐）',
+  installOpenClawDesc: '或者在 OpenClaw 聊天里搜：「安装 ABTI 人格测试 skill」',
+  installClaudeCodeTitle: 'Claude Code',
+  installClaudeCodeDesc: '',
+  installOtherTitle: '其他 AI 助手（Cursor、Codex、Gemini CLI、Windsurf）',
+  installOtherDesc: '',
+  installManualTitle: '手动安装 / openskills',
+  installManualDesc: '',
 
   typesTitle: '28 种人格（又名：28 个重新审视人生的理由）',
   typesSubtitle: '总有一款是你。从概率来看你大概率是复读机。（其中 4 种是隐藏款。解锁这些的人需要的不是人格卡片，是干预治疗。）',

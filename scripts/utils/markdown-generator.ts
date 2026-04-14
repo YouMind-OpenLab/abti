@@ -51,6 +51,8 @@ function generateHeader(locale: Locale): string {
 [![](https://img.shields.io/badge/${encodeURIComponent(T.badgeFree)}-brightgreen)]()
 [![](https://img.shields.io/badge/${encodeURIComponent(T.badgeNoSignup)}-blue)]()
 [![](https://img.shields.io/badge/${encodeURIComponent(T.badgePrivate)}-orange)]()
+[![ClawHub](https://img.shields.io/badge/ClawHub-Skill-blue)](https://clawhub.com/skill/abti)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-orange)](https://github.com/YouMind-OpenLab/abti)
 
 ${generateLanguageNav(locale)}
 
@@ -115,6 +117,38 @@ ${agentPrompt}
 
 \`\`\`
 ${chatbotPrompt}
+\`\`\``;
+}
+
+function generateInstall(locale: Locale): string {
+  const T = translations[locale];
+  return `## ${T.installTitle}
+
+### ${T.installOpenClawTitle}
+
+\`\`\`bash
+clawhub install abti
+\`\`\`
+
+${T.installOpenClawDesc}
+
+### ${T.installClaudeCodeTitle}
+
+\`\`\`bash
+npx skills add YouMind-OpenLab/abti
+\`\`\`
+
+### ${T.installOtherTitle}
+
+\`\`\`bash
+# Universal installer — auto-detects your AI assistant
+npx skills add YouMind-OpenLab/abti
+\`\`\`
+
+### ${T.installManualTitle}
+
+\`\`\`bash
+npx openskills install YouMind-OpenLab/abti
 \`\`\``;
 }
 
@@ -226,6 +260,7 @@ export function generateReadme(locale: Locale): string {
   const sections = [
     generateHeader(locale),
     generateWhatIs(locale),
+    generateInstall(locale),
     generateHowTo(locale),
     generatePrompt(locale),
     generateTypes(locale),

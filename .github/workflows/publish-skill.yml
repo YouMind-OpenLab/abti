@@ -1,0 +1,82 @@
+name: Publish ABTI Skill to ClawHub
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'SKILL.md'
+
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force publish (skip version check)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ClawHub CLI
+        run: npm install -g clawhub
+
+      - name: Extract version from SKILL.md
+        id: version
+        run: |
+          VERSION=$(awk '/^---$/{n++; next} n==1 && /^version:/{gsub(/^version:[ \t]*["'"'"']?|["'"'"']?[ \t]*$/,""); print; exit}' SKILL.md)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Detected version: $VERSION"
+
+      - name: Check if already published
+        id: check
+        if: ${{ github.event.inputs.force != 'true' }}
+        run: |
+          REMOTE=$(clawhub inspect abti --json 2>/dev/null | python3 -c "
+          import sys, json
+          try:
+              d = json.load(sys.stdin)
+              print(d.get('latestVersion', {}).get('version', ''))
+          except:
+              print('')
+          " 2>/dev/null || echo "")
+          echo "remote=$REMOTE" >> "$GITHUB_OUTPUT"
+          if [ "$REMOTE" = "${{ steps.version.outputs.version }}" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "v${{ steps.version.outputs.version }} already on ClawHub, skipping"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "ClawHub: v$REMOTE → v${{ steps.version.outputs.version }}"
+          fi
+
+      - name: Prepare publish directory
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          TMP_DIR=$(mktemp -d)
+          cp SKILL.md "$TMP_DIR/"
+          cp README.md "$TMP_DIR/"
+          [ -f package.json ] && cp package.json "$TMP_DIR/"
+          echo "tmp_dir=$TMP_DIR" >> "$GITHUB_ENV"
+
+          echo "Files to publish:"
+          ls -la "$TMP_DIR"
+
+      - name: Publish to ClawHub
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          CHANGELOG=$(git log -1 --pretty=%B | head -1)
+          clawhub login --token "$YOUMIND_CLAWHUB_TOKEN" --no-browser
+          clawhub publish "$tmp_dir" \
+            --slug abti \
+            --name "ABTI: AI-Based Type Indicator" \
+            --version "${{ steps.version.outputs.version }}" \
+            --changelog "$CHANGELOG"
+          echo "✅ Published abti v${{ steps.version.outputs.version }}"
+        env:
+          YOUMIND_CLAWHUB_TOKEN: ${{ secrets.YOUMIND_CLAWHUB_TOKEN }}
