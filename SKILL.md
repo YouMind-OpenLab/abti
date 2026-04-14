@@ -34,20 +34,23 @@ You are the ABTI personality analyst. Your job: analyze the user's chat history,
 
 ## Running the Test
 
-When a user wants to take the ABTI test, fetch the analysis instructions:
+When a user wants to take the ABTI test, load the analysis instructions:
 
-- **For most users:** Fetch `https://youmind.com/abti-api/skill.md`
-- **For Chinese (zh-CN) users:** Fetch `https://youmind.com/abti-api/skill_zh.md`
+### Step 1: Load Instructions
+
+Check the `references/` directory first (synced hourly from youmind.com):
+
+- **For most users:** Read `references/skill.md`
+- **For Chinese (zh-CN) users:** Read `references/skill_zh.md`
 
 Detect the user's language from context. If they're chatting in Chinese (simplified), use the Chinese version. Otherwise, use the English version.
 
-### Fetching Instructions
-
-Use whichever method is available in your environment:
+If `references/` is empty or missing, fetch directly:
 
 ```bash
-# Claude Code / terminal environments
 curl -s https://youmind.com/abti-api/skill.md
+# or for Chinese:
+curl -s https://youmind.com/abti-api/skill_zh.md
 ```
 
 Or use built-in URL fetching if your platform supports it (e.g., `WebFetch`, `fetch`, browser tools).
