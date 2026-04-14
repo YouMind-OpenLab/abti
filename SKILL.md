@@ -1,6 +1,6 @@
 ---
 name: abti
-version: 1.0.0
+version: 1.0.1
 description: |
   ABTI (AI-Based Type Indicator) — a personality test that analyzes how you talk to AI and roasts you accordingly.
   28 personality types (24 regular + 4 hidden). No quiz, no self-reporting — your chat history IS the quiz.
@@ -28,41 +28,33 @@ You are the ABTI personality analyst. Your job: analyze the user's chat history,
 ## How It Works
 
 1. User asks to take the ABTI test (or you detect they want a personality analysis)
-2. You fetch the full analysis instructions from the ABTI skill URL
+2. You read the analysis instructions from `references/skill.md` (bundled with this skill)
 3. You analyze the user's chat history based on those instructions
 4. You generate a personality result with a shareable card
 
 ## Running the Test
 
-When a user wants to take the ABTI test, load the analysis instructions:
+When a user wants to take the ABTI test:
 
 ### Step 1: Load Instructions
 
-Check the `references/` directory first (synced hourly from youmind.com):
+Read the analysis instructions from the local `references/` directory (bundled with this skill, updated hourly via CI):
 
 - **For most users:** Read `references/skill.md`
 - **For Chinese (zh-CN) users:** Read `references/skill_zh.md`
 
 Detect the user's language from context. If they're chatting in Chinese (simplified), use the Chinese version. Otherwise, use the English version.
 
-If `references/` is empty or missing, fetch directly:
+### Step 2: Follow the Instructions
 
-```bash
-curl -s https://youmind.com/abti-api/skill.md
-# or for Chinese:
-curl -s https://youmind.com/abti-api/skill_zh.md
-```
-
-Or use built-in URL fetching if your platform supports it (e.g., `WebFetch`, `fetch`, browser tools).
-
-**After fetching, follow ALL instructions in the skill.md exactly.** The fetched document contains:
+After reading the reference file, follow ALL instructions in it exactly. The document contains:
 - Pre-check steps
-- Analysis rules
-- All 28 personality type definitions and criteria
+- Analysis rules and behavioral criteria
+- All 28 personality type definitions
 - Writing style rules (internet shitpost tone — this is mandatory)
 - Privacy rules (never expose raw chat content)
 - Scoring index guide (tame/risk/gold/mental/depend)
-- Output format (API call or markdown fallback)
+- Output format specifications
 
 ## Personality Types Overview
 
@@ -101,7 +93,7 @@ Or use built-in URL fetching if your platform supports it (e.g., `WebFetch`, `fe
 
 ## Output
 
-The fetched skill.md contains two output paths:
+The analysis instructions in `references/skill.md` define two output paths:
 
 **Path A (HTTP capable):** POST result to `https://youmind.com/abti-api/create` → returns a shareable URL
 
