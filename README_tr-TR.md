@@ -54,33 +54,13 @@ npx skills add YouMind-OpenLab/abti
 npx skills add YouMind-OpenLab/abti
 ```
 
-### Manual / openskills
+### Manual
 
-```bash
-npx openskills install YouMind-OpenLab/abti
-```
-
----
-
-## How to Get Absolutely Destroyed in 3 Steps
-
-### 1. Copy the prompt below
+#### 1. Copy the prompt below
 
 Two options depending on your AI. Even your goldfish could do it. Actually, your goldfish has better prompt hygiene than you.
 
-### 2. Feed it to your AI
-
-ChatGPT / Claude / OpenClaw / Manus / whatever sentient text box you've been emotionally depending on. Hit send.
-
-### 3. Get absolutely cooked
-
-Your AI will dig through your chat history, judge you harder than your mother-in-law, and generate a shareable card. Then you post it. Then your friends take it. Then everyone discovers they're all LOOP types. Circle of life.
-
----
-
-## The Prompt (a.k.a. Your Diagnosis Referral)
-
-### 🤖 For Agents
+**🤖 For Agents**
 
 > e.g. Claude, OpenClaw, Manus — these overachievers can read URLs on their own. Just paste and send.
 
@@ -91,16 +71,22 @@ If it fails, try:
 https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill.md
 ```
 
-### 💬 For Chatbots
+**💬 For Chatbots**
 
 > e.g. ChatGPT, Gemini, Copilot — they can't fetch URLs because apparently reading links is too hard. You gotta hand-deliver the instructions like room service.
 
 ```
 1. Open this link in your browser: https://youmind.com/abti-api/skill.md
 2. Select all (Ctrl+A), copy the entire page (yes, ALL of it, don't be lazy)
-3. Paste it into your chatbot and hit send
-4. Sit back. The roasting will commence shortly.
 ```
+
+#### 2. Feed it to your AI
+
+ChatGPT / Claude / OpenClaw / Manus / whatever sentient text box you've been emotionally depending on. Hit send.
+
+#### 3. Get absolutely cooked
+
+Your AI will dig through your chat history, judge you harder than your mother-in-law, and generate a shareable card. Then you post it. Then your friends take it. Then everyone discovers they're all LOOP types. Circle of life.
 
 ---
 

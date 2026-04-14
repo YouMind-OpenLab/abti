@@ -54,33 +54,13 @@ npx skills add YouMind-OpenLab/abti
 npx skills add YouMind-OpenLab/abti
 ```
 
-### Manual / openskills
+### Manual
 
-```bash
-npx openskills install YouMind-OpenLab/abti
-```
-
----
-
-## 使い方
-
-### 1. 下のプロンプトをコピー
+#### 1. 下のプロンプトをコピー
 
 たった2行。猫でもできる。
 
-### 2. AIに貼り付け
-
-ChatGPT / Claude / Openclaw / 何でもOK。送信。
-
-### 3. 裁きを受ける
-
-AIがチャット履歴を分析して、あなたが何者か教えてくれる。シェアカードも生成。SNSに投稿。友達も診断。無限ループ。
-
----
-
-## The Prompt (a.k.a. Your Diagnosis Referral)
-
-### 🤖 Agent向け
+**🤖 Agent向け**
 
 > 例: Claude, OpenClaw, Manus — こいつらは自分でURLを読める
 
@@ -91,16 +71,22 @@ If it fails, try:
 https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill.md
 ```
 
-### 💬 Chatbot向け
+**💬 Chatbot向け**
 
 > 例: ChatGPT, Gemini, Copilot — URL読めないから手動コピペ必須
 
 ```
 1. ブラウザでこのリンクを開く: https://youmind.com/abti-api/skill.md
 2. 全選択、ページ全体をコピー
-3. チャットボットに貼り付けて送信
-4. あとは座って裁きを待つだけ
 ```
+
+#### 2. AIに貼り付け
+
+ChatGPT / Claude / Openclaw / 何でもOK。送信。
+
+#### 3. 裁きを受ける
+
+AIがチャット履歴を分析して、あなたが何者か教えてくれる。シェアカードも生成。SNSに投稿。友達も診断。無限ループ。
 
 ---
 
