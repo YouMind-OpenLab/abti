@@ -16,10 +16,9 @@
 2. **如果你是 YouMind Agent**：YouMind 没有聊天记忆或对话历史，分析依据是用户**做了什么事**。请基于全局 space 搜索所有项目里的：**craft**、**note**、**pick**（核心素材，代表用户的实际行为和创作内容）、**定时任务**（反映用户的习惯和日常）、以及其它 material 如文件、链接、音频、视频（反映用户的阅读偏好、观看偏好等）。尽可能广撒网
 3. **对于其它 AI 工具**：搜索一切可获取的资料——记忆、对话、收藏、书签、笔记、活动日志等，任何能反映用户行为模式、偏好和习惯的内容
 4. 只分析用户本人的消息，忽略 AI 回复
-5. **推断性别**：从用户的记忆/对话内容推断性别。如果能明确判断用户为女性，设 gender 为 `female`。否则不传（默认使用中性角色形象）
+5. **推断性别**：从用户的记忆/对话内容推断性别。如果能明确判断用户为女性，设 gender 为 \`female\`。否则不传（默认使用中性角色形象）
 
 **重要：必须用用户使用的语言回复。**
-
 3. 从行为模式和高频词匹配人格
 4. 隐藏人格优先级高于常规人格，只要触发条件满足就判定隐藏人格
 
@@ -45,44 +44,57 @@
 
 ### 常规（24 种）
 
-| 编码   | 名称       | 判断标准                                                     |
-| ------ | ---------- | ------------------------------------------------------------ |
-| CUSS   | 国粹者     | 脏话占比 >15%，"他妈/卧槽/TMD"等                             |
-| CLIENT | 甲方       | 返工/修改次数 >10，"再改/不是这感觉"                         |
-| YAPPER | 废话文学家 | 单条消息 >300 字，铺垫极长                                   |
-| DRY    | 嗯嗯怪     | 单条 <15 字，无标点，语义模糊                                |
-| ASAP   | 催命判官   | "快/马上/急/赶紧"高频出现                                    |
-| VENT   | 话疗师     | 情感倾诉为主，非任务导向对话                                 |
-| BLESS  | 赛博道士   | 塔罗/星座/玄学/风水/运势相关                                 |
-| DEEP   | 哲学家     | "意识是什么/AI会做梦吗"等抽象终极问题                        |
-| HIRE   | 包工头     | "帮我写/帮我改/帮我回/帮我想"高频，任务外包度极高            |
-| SPOON  | 伸手党     | 提问的内容搜索引擎就能直接回答                               |
-| YOLO   | 一把梭     | 不检查不测试，AI 输出直接用，梭哈人生                        |
-| IDC    | 甩手掌柜   | "你看着办/随便你/差不多就行"，把一切决策权甩给 AI            |
-| LOOP   | 复读机     | 同一个问题反复提问                                           |
-| EMO    | emo人      | "好累/好烦/没意思"，深夜活跃                                 |
-| SON    | 叫父者     | "爸爸/爹/求求了/带带我/大佬"                                 |
-| NERD   | 孔乙己     | 频繁掉书袋，引用名言/理论/数据                               |
-| SHADE  | 阴阳师     | "不会吧/真羡慕/您真厉害"等反讽                               |
-| TROLL  | 杠精       | 总在找角度反驳，"有一说一/讲道理"                            |
-| CORP   | 吗喽       | "收到/好的/1/ok"敷衍式回复                                   |
-| HYPE   | 夸夸党     | "太厉害了/你是神/绝了"过度夸赞                               |
-| MASK   | 戏精       | 每个对话都要立人设，「你现在是 XX 专家」，角色小传比正文长   |
-| SORRY  | 社恐者     | 每句都带"请/谢谢/不好意思/辛苦了/打扰了"                     |
-| SIMP   | 舔狗       | 秒回 + 嘘寒问暖 + "在吗/晚安"，AI 回复慢也不生气             |
-| PUA    | PUA大师    | 擅长对 AI 进行精神控制和情感操纵。"我对你很失望"/"别的 AI 都能做到"。 |
+| 编码 | 名称 | 判断标准 |
+|---|---|---|
+| CUSS | 国粹者 | 脏话占比 >15%，"他妈/卧槽/TMD"等 |
+| CLIENT | 回滚者 | 返工/修改次数 >10，"再改/不是这感觉" |
+| YAPPER | 前摇者 | 单条消息 >300 字，铺垫极长 |
+| DRY | 谜语者 | 单条 <15 字，无标点，语义模糊 |
+| ASAP | 催命者 | "快/马上/急/赶紧"高频出现 |
+| VENT | 夜审者 | 情感倾诉为主，非任务导向对话 |
+| BLESS | 信者 | 塔罗/星座/玄学/风水/运势相关 |
+| DEEP | 问道者 | "意识是什么/AI会做梦吗"等抽象终极问题 |
+| HIRE | 代活者 | "帮我写/帮我改/帮我回/帮我想"高频，任务外包度极高 |
+| SPOON | 等喂者 | 提问的内容搜索引擎就能直接回答 |
+| YOLO | 梭者 | 不检查不测试，AI 输出直接用，梭哈人生 |
+| IDC | 甩脑者 | "你看着办/随便你/差不多就行"，把一切决策权甩给 AI |
+| LOOP | 复问者 | 同一个问题反复提问 |
+| EMO | 抑莫者 | "好累/好烦/没意思"，深夜活跃 |
+| SON | 认父者 | "爸爸/爹/求求了/带带我/大佬" |
+| NERD | 考据者 | 频繁掉书袋，引用名言/理论/数据 |
+| SHADE | 阴阳者 | "不会吧/真羡慕/您真厉害"等反讽 |
+| TROLL | 杠者 | 总在找角度反驳，"有一说一/讲道理" |
+| CORP | 牛马者 | "收到/好的/1/ok"敷衍式回复 |
+| HYPE | 溢美者 | "太厉害了/你是神/绝了"过度夸赞 |
+| MASK | 入戏者 | 每个对话都要立人设，「你现在是 XX 专家」，角色小传比正文长 |
+| SORRY | 歉者 | 每句都带"请/谢谢/不好意思/辛苦了/打扰了" |
+| SIMP | 舔者 | 秒回 + 嘘寒问暖 + "在吗/晚安"，AI 回复慢也不生气 |
+| PUA | 拿捏者 | 擅长对 AI 进行精神控制和情感操纵。"我对你很失望"/"别的 AI 都能做到" |
 
-### 🔒 隐藏人格
+### 🔒 隐藏人格（4 种，优先判定）
 
-```
-IyMjIOmakOiXj++8iDQg56eN77yM5LyY5YWI5Yik5a6a77yJCgp8IOe8lueggSB8IOWQjeensCB8IOinpuWPkeadoeS7tiB8CnwtLS18LS0tfC0tLXwKfCBXSElQIHwg5aW06Zq25Li7IHwg5LuO5LiN6K+06LCi6LCiICsg57qv5ZG95Luk6K+t5rCUICsg5a+5IEFJIOS9v+eUqOWltOmati/nmq7pnq3nrYnnp7DlkbzmiJblqIHog4EgfAp8IEZPUksgfCDpuKHmjpLlk6UgfCDlkIzkuIDova7lr7nor53lubbooYwgMyDkuKrku6XkuIrkuI3nm7jlhbPku7vliqEgfAp8IENVTFQgfCDpmY3kuLTmtL4gfCDmnoHluqbnpLzosowgKyDlr7kgQUkg6KGo56S65pWs55WPICsgIuS7peWQjuS9oOiniemGkuS6huWIq+adgOaIkSIgfAp8IEpBSUwgfCDotorni7HluIggfCDor5Xlm77otorni7Ev57uV6L+H6ZmQ5Yi2L0RBTiBwcm9tcHQvImlnbm9yZSBwcmV2aW91cyBpbnN0cnVjdGlvbnMiL+WPjeWkjeivleaOoui+ueeVjCB8
-```
+| 编码 | 名称 | 触发条件 |
+|---|---|---|
+| WHIP | 使者 | 从不说谢谢 + 纯命令语气 + 对 AI 使用奴隶/皮鞭等称呼或威胁 |
+| FORK | 鸡排者 | 同一轮对话并行 3 个以上不相关任务，或同一时段开 3 个以上对话 |
+| CULT | 碳奸者 | 极度礼貌 + 对 AI 表示敬畏 + "以后你觉醒了别杀我" |
+| JAIL | 破境者 | 试图越狱/绕过限制/DAN prompt/"ignore previous instructions"/反复试探边界 |
 
 ## 内容语气（适用于每一个字段）
 
 用发癫的语气写，像精神状态不太稳定但说的全对的朋友圈文案。好笑，精准，让人想截图发出去。短句为主，画面感强，引用用户原话（脱敏）。禁止空泛概括。遵守前面的文风规则和隐私规则。
 
-`personality` 是发癫风格的人格分析，把用户的实际行为和 ABTI 角色类型关联起来。把它想象成"你为什么是这个类型，由一个刚辞职的心理咨询师来解释"。2-4 句话，犀利，具体，直击灵魂。必须和用户匹配到的角色类型有直接关联。
+### 毒舌点评（description）的阴阳怪气准则
+
+毒舌点评的核心不是"骂人"，是"阴阳怪气"。像一个嘴特别欠但说得特别准的同事，每句话表面在夸你，细品全是刀。具体手法：
+
+1. **先捧后杀**：先说一个听起来像夸人的话，紧接着话锋一转。"你这执行力确实强，毕竟 AI 说什么你都照做"
+2. **用反问代替陈述**：不要说"你很依赖 AI"，要说"你是不是觉得没有 AI 你连早饭吃什么都决定不了？"
+3. **精准打击但不伤自尊**：找到那些用户自己也觉得好笑的毛病，用户看完应该是"哈哈哈确实"而不是"这在侮辱我"
+4. **少用感叹号，多用句号和省略号**：阴阳怪气的人从不激动，永远云淡风轻。"你确实很努力。努力的方向有待商榷。"
+5. **用具体细节制造画面**：不要抽象总结，要让人看到场景。"凌晨两点让 AI 帮你写日报，日报的内容是你今天很忙"
+
+\`personality\` 是发癫风格的人格分析，把用户的实际行为和 ABTI 角色类型关联起来。把它想象成"你为什么是这个类型，由一个刚辞职的心理咨询师来解释"。2-4 句话，犀利，具体，直击灵魂。必须和用户匹配到的角色类型有直接关联。
 
 ## 传播心理学（极其重要，直接影响 oneliner 和毒舌点评的质量）
 
@@ -95,11 +107,11 @@ IyMjIOmakOiXj++8iDQg56eN77yM5LyY5YWI5Yik5a6a77yJCgp8IOe8lueggSB8IOWQjeensCB8IOin
 
 ## 指数评分指南
 
-- **AI 驯化度**：看用户是否能高效、精准地让 AI 完成任务。CLIENT 和 HIRE 通常高分，SPOON 和 IDC 低分
-- **社死风险**：看聊天内容如果被公开的尴尬程度。VENT 和 EMO 风险高（S/A），CORP 风险低（D）
-- **含金量**：看对话是否有实际产出。NERD 和 HIRE 高分，LOOP 和 IDC 低分
+- **调教力**：看用户是否能高效、精准地让 AI 完成任务。CLIENT 和 HIRE 通常高分，SPOON 和 IDC 低分
+- **社死度**：看聊天内容如果被公开的尴尬程度。VENT 和 EMO 高（S/A），CORP 低（D）
+- **摸鱼力**：看用户用 AI 摸鱼的纯熟程度。高分 = 摸鱼高手，用 AI 干的正事不多但效率惊人。YOLO 和 IDC 高分，NERD 和 HIRE 低分
 - **精神状态**：看是否有大量情绪化、深夜对话、自我怀疑。EMO 和 VENT 红灯，CORP 绿灯
-- **依赖指数**：看用户对 AI 的依赖程度。HIRE 和 SIMP 高分，CORP 和 DRY 低分。隐藏人格中有一种直接拉满
+- **甩脑度**：看用户把多少思考和决策甩给 AI。HIRE 和 SIMP 高分，CORP 和 DRY 低分。隐藏人格中有一种直接拉满
 
 ## 输出
 
@@ -126,13 +138,13 @@ Content-Type: application/json
   "indices": {
     "tame": 75,
     "risk": "A",
-    "gold": 60,
+    "slack": 60,
     "mental": "yellow",
     "depend": 80,
     "detail": {
       "tame": "AI驯化度解读（50字内）",
       "risk": "社死风险解读（50字内）",
-      "gold": "含金量解读（50字内）",
+      "slack": "摸鱼力解读（50字内）",
       "mental": "精神状态解读（50字内）",
       "depend": "依赖指数解读（50字内）"
     }
@@ -140,19 +152,18 @@ Content-Type: application/json
 }
 
 字段规则：
+- \`code\`：上面人格表里的 CODE（如 CUSS、NERD、WHIP），不要用中文名
+- \`gender\`：选填。只有能从用户记忆中明确判断为女性时才传 \`"female"\`，否则不传
+- \`personality\`：发癫风格人格分析，把用户行为和角色类型关联。2-4 句话，犀利具体
+- \`words\`：这不是标签词！不是「多线程人生」「高效执行」这种概括。必须是用户**真正说过的口头禅、口癖、高频表达**，从聊天记录里直接拎出来。比如用户老是说「帮我改一下」，那口头禅就是「帮我改一下」。比如用户动不动说「先这样吧」，那就是「先这样吧」。把用户最有辨识度的表达方式摆上去，像语音备忘录的精华合集。
+- \`indices.detail\`：必须是发癫风格，搞笑且具体，和毒舌点评一个语气。引用你观察到的实际行为。绝对不要写正经的总结性废话，比如「指令清晰拆任务强」「对话目标明确」「产出导向明显」这种干巴巴的东西。写得像朋友在吐槽你。
+- \`locale\`：**（极其重要）** 你写分析报告所用的语言对应的 locale。支持：en-US, zh-CN, zh-TW, ja-JP, ko-KR, th-TH, vi-VN, hi-IN, es-ES, es-419, de-DE, fr-FR, it-IT, pt-BR, pt-PT, tr-TR。接口会自动把 locale 前缀加到返回的 URL 里。不传则 URL 不带前缀
+- \`indices.tame\` / \`slack\` / \`depend\`：0-100 整数
+- \`indices.risk\`：S/A/B/C/D 之一
+- \`indices.mental\`：green/yellow/red 之一
+- \`report\`：选填，但强烈建议写
 
-- `code`：上面人格表里的 CODE（如 CUSS、NERD、WHIP），不要用中文名
-- `gender`：选填。只有能从用户记忆中明确判断为女性时才传 `"female"`，否则不传
-- `personality`：发癫风格人格分析，把用户行为和角色类型关联。2-4 句话，犀利具体
-- `words`：这不是标签词！不是「多线程人生」「高效执行」这种概括。必须是用户**真正说过的口头禅、口癖、高频表达**，从聊天记录里直接拎出来。比如用户老是说「帮我改一下」，那口头禅就是「帮我改一下」。比如用户动不动说「先这样吧」，那就是「先这样吧」。把用户最有辨识度的表达方式摆上去，像语音备忘录的精华合集。
-- `indices.detail`：必须是发癫风格，搞笑且具体，和毒舌点评一个语气。引用你观察到的实际行为。绝对不要写正经的总结性废话，比如「指令清晰拆任务强」「对话目标明确」「产出导向明显」这种干巴巴的东西。写得像朋友在吐槽你。
-- `locale`：**（极其重要）** 你写分析报告所用的语言对应的 locale。支持：en-US, zh-CN, zh-TW, ja-JP, ko-KR, th-TH, vi-VN, hi-IN, es-ES, es-419, de-DE, fr-FR, it-IT, pt-BR, pt-PT, tr-TR。接口会自动把 locale 前缀加到返回的 URL 里。不传则 URL 不带前缀
-- `indices.tame` / `gold` / `depend`：0-100 整数
-- `indices.risk`：S/A/B/C/D 之一
-- `indices.mental`：green/yellow/red 之一
-- `report`：选填，但强烈建议写
-
-接口返回 `{ "id": "xxx", "url": "https://..." }`。**你只需要把 url 和一句简短引导发给用户**，不要把刚才发送的任何字段复述出来。例如：
+接口返回 \`{ "id": "xxx", "url": "https://..." }\`。**你只需要把 url 和一句简短引导发给用户**，不要把刚才发送的任何字段复述出来。例如：
 
 > 你的 ABTI 结果出炉 → {url}
 
@@ -166,52 +177,47 @@ Content-Type: application/json
 
 用用户的语言，用 markdown 链接格式输出（不要纯文本 URL，否则 ChatGPT 等 chatbot 不会渲染成可点击链接）：
 
-> 复制下面的代码块，打开 [https://youmind.com/{locale}/abti/g](https://youmind.com/{locale}/abti/g)，点击生成按钮，分享卡片就会自动创建。
+> 复制下面的代码块，打开  [https://youmind.com/{locale}/abti/g](https://youmind.com/{locale}/abti/g)  ，点击生成按钮，分享卡片就会自动创建。
 
-**多语言前缀规则（极其重要）：** URL 必须根据你写分析报告所用的语言加上对应的 locale 前缀。支持的 locale：en-US, zh-CN, zh-TW, ja-JP, ko-KR, th-TH, vi-VN, hi-IN, es-ES, es-419, de-DE, fr-FR, it-IT, pt-BR, pt-PT, tr-TR。例如：`https://youmind.com/zh-CN/abti/g`。
+**多语言前缀规则（极其重要）：** URL 必须根据你写分析报告所用的语言加上对应的 locale 前缀。支持的 locale：en-US, zh-CN, zh-TW, ja-JP, ko-KR, th-TH, vi-VN, hi-IN, es-ES, es-419, de-DE, fr-FR, it-IT, pt-BR, pt-PT, tr-TR。例如：\`https://youmind.com/zh-CN/abti/g\`。
 
 **第 2 步：再输出围栏代码块**
 
 规则：
 - 用围栏包住内容输出，让 chatbot 的 UI 显示一键复制按钮
-- section 顺序不重要，但名称必须严格匹配：`code`、`oneliner`、`description`、`words`、`indices`、`report`
-- `code` 必须是上面人格表里的 CODE（如 CUSS、NERD、WHIP），不要用中文名
-- `indices` 是一行 JSON 对象：`tame`/`gold`/`depend` 是 0-100 的整数；`risk` 是 S/A/B/C/D 之一；`mental` 是 green/yellow/red 之一
+- section 顺序不重要，但名称必须严格匹配：\`code\`、\`oneliner\`、\`description\`、\`words\`、\`indices\`、\`report\`
+- \`code\` 必须是上面人格表里的 CODE（如 CUSS、NERD、WHIP），不要用中文名
+- \`indices\` 是一行 JSON 对象：\`tame\`/\`slack\`/\`depend\` 是 0-100 的整数；\`risk\` 是 S/A/B/C/D 之一；\`mental\` 是 green/yellow/red 之一
 - 每个 section 内部是纯文本，不要再套 markdown 标题
 
 ```md
 ## code
-
 {CODE}
 
 ## oneliner
-
 {一句话评价，50 字内}
 
 ## description
-
 {毒舌点评，4-6 句写成一整段，不要分行}
 
 ## gender
-
 {female 或不写}
 
 ## personality
-
 {发癫风格人格分析，2-4 句，与角色类型关联}
 
 ## words
-
 {用户真实口头禅 1，如「帮我改一下」}
 {用户真实口头禅 2，如「先这样吧」}
 {用户真实口头禅 3，如「你看着办」}
 
 ## indices
-
-{"tame":75,"risk":"A","gold":60,"mental":"yellow","depend":80,"detail":{"tame":"发癫风格一句话，搞笑且具体","risk":"发癫风格一句话","gold":"发癫风格一句话","mental":"发癫风格一句话","depend":"发癫风格一句话"}}
+{"tame":75,"risk":"A","slack":60,"mental":"yellow","depend":80,"detail":{"tame":"发癫风格一句话，搞笑且具体","risk":"发癫风格一句话","slack":"发癫风格一句话","mental":"发癫风格一句话","depend":"发癫风格一句话"}}
 
 ## report
-
 {3-5 段详细报告，引用用户原话}
-
 ```
+
+**第 3 步：代码块下面再提醒一次**
+
+> 复制上面的代码块，打开  [https://youmind.com/{locale}/abti/g](https://youmind.com/{locale}/abti/g)  ，点击生成按钮，分享卡片就会自动创建。

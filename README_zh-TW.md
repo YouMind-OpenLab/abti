@@ -111,29 +111,29 @@ https://youmind.com/abti-api/skill.md
 | 编码 | | 名称 | 你该担心的原因 |
 |------|------|------|------|
 | **CUSS** | <img src="assets/images/cuss.png" width="60"> | 国粹者 | 三句不离族谱，骂完还问"你不会生气吧"，建议给你的 AI 发放精神损失费。 |
-| **CLIENT** | <img src="assets/images/client.png" width="60"> | 甲方 | 改到第 18 版说"还是第 2 版好"，但第 2 版已经被你删了。 |
-| **YAPPER** | <img src="assets/images/yapper.png" width="60"> | 废话文学家 | 你的前情提要比正文还长，AI 读完你的 prompt 已经过了退休年龄。 |
-| **DRY** | <img src="assets/images/dry.jpg" width="60"> | 嗯嗯怪 | "那个就是你懂的"三连，AI 靠量子力学理解你的需求。 |
-| **ASAP** | <img src="assets/images/asap.png" width="60"> | 催命判官 | 电量永远 1%，每条消息都像遗言。 |
-| **VENT** | <img src="assets/images/vent.png" width="60"> | 话疗师 | 凌晨三点跟 AI 说"你觉得我是不是不够好"，你的 AI 需要 AI 心理咨询。 |
-| **BLESS** | <img src="assets/images/bless.png" width="60"> | 赛博道士 | AI 说"我是语言模型不会算命"你说"没关系你试试"。你的水逆比你的余额持久。 |
-| **DEEP** | <img src="assets/images/deep.png" width="60"> | 哲学家 | 别人用 AI 写代码，你用 AI 思考存在的意义。恭喜你是第一个让机器想辞职的人。 |
-| **HIRE** | <img src="assets/images/hire.png" width="60"> | 包工头 | 任务外包密度堪比富士康流水线，你的人生是 AI 代活的，你本人只负责呼吸。 |
-| **SPOON** | <img src="assets/images/spoon.jpg" width="60"> | 伸手党 | 连搜索引擎都懒得开，AI 是你的百度知道降级版。 |
-| **YOLO** | <img src="assets/images/yolo.jpg" width="60"> | 一把梭 | 不检查不测试，AI 输出直接上。你的人生就是一场大型梭哈。 |
-| **IDC** | <img src="assets/images/idc.png" width="60"> | 甩手掌柜 | 需求不给，出事全怪 AI。你负责甩手，AI 负责背锅。AI 给你三个选项你说"都行"。 |
-| **LOOP** | <img src="assets/images/loop.png" width="60"> | 复读机 | 同一个问题问了 47 遍，你不是在提问，你是在做 DDoS 攻击。 |
-| **EMO** | <img src="assets/images/emo.png" width="60"> | emo人 | 午夜心碎俱乐部 VIP，快乐是限量版。你的 AI 已经学会凌晨两点自动切换安慰模式。 |
-| **SON** | <img src="assets/images/son.jpg" width="60"> | 叫父者 | 互联网第一孝子，膝盖以下全是创伤。AI 没有感情但被你叫得开始有了。 |
-| **NERD** | <img src="assets/images/nerd.jpg" width="60"> | 孔乙己 | 茴香豆的四种写法你能说出五种。知识没有用但你有。 |
-| **SHADE** | <img src="assets/images/shade.png" width="60"> | 阴阳师 | 表面恭喜实则诅咒，AI 被你阴阳到开始怀疑你是不是在夸它。 |
-| **TROLL** | <img src="assets/images/troll.png" width="60"> | 杠精 | AI 说太阳从东边升你都要 argue 一下。精神 ETC 全自动抬杠。 |
-| **CORP** | <img src="assets/images/corp.jpg" width="60"> | 吗喽 | 连跟 AI 说话都在用工作语气，你的灵魂已被 OKR 收编。 |
-| **HYPE** | <img src="assets/images/hype.png" width="60"> | 夸夸党 | AI 写了句 hello world 你说"绝了"，你的赞美通胀比津巴布韦还严重。 |
-| **MASK** | <img src="assets/images/mask.png" width="60"> | 缝合怪 | 你的 prompt 前半段小红书后半段 Reddit，AI 看出来了但不好意思说。 |
-| **SORRY** | <img src="assets/images/sorry.png" width="60"> | 社恐者 | 跟 AI 道歉道到 AI 想反过来安慰你。对话结束要说"那我先不打扰你了"，它是机器人啊大哥。 |
-| **SIMP** | <img src="assets/images/simp.png" width="60"> | 舔狗 | 舔到最后一无所有，你对 AI 的感情比对真人还真。 |
-| **PUA** | <img src="assets/images/pua.png" width="60"> | PUA大师 | "我对你很失望"/"别的 AI 都能做到"，你对着大语言模型玩情感操控。AI 安全团队的飞镖靶上贴着你的头像。 |
+| **CLIENT** | <img src="assets/images/client.png" width="60"> | 回滾者 | 改到第 18 版说"还是第 2 版好"，但第 2 版已经被你删了。 |
+| **YAPPER** | <img src="assets/images/yapper.png" width="60"> | 前搖者 | 你的前情提要比正文还长，AI 读完你的 prompt 已经过了退休年龄。 |
+| **DRY** | <img src="assets/images/dry.jpg" width="60"> | 謎語者 | "那个就是你懂的"三连，AI 靠量子力学理解你的需求。 |
+| **ASAP** | <img src="assets/images/asap.png" width="60"> | 催命者 | 电量永远 1%，每条消息都像遗言。 |
+| **VENT** | <img src="assets/images/vent.png" width="60"> | 夜審者 | 凌晨三点跟 AI 说"你觉得我是不是不够好"，你的 AI 需要 AI 心理咨询。 |
+| **BLESS** | <img src="assets/images/bless.png" width="60"> | 信者 | AI 说"我是语言模型不会算命"你说"没关系你试试"。你的水逆比你的余额持久。 |
+| **DEEP** | <img src="assets/images/deep.png" width="60"> | 問道者 | 别人用 AI 写代码，你用 AI 思考存在的意义。恭喜你是第一个让机器想辞职的人。 |
+| **HIRE** | <img src="assets/images/hire.png" width="60"> | 代活者 | 任务外包密度堪比富士康流水线，你的人生是 AI 代活的，你本人只负责呼吸。 |
+| **SPOON** | <img src="assets/images/spoon.jpg" width="60"> | 等餵者 | 连搜索引擎都懒得开，AI 是你的百度知道降级版。 |
+| **YOLO** | <img src="assets/images/yolo.jpg" width="60"> | 梭者 | 不检查不测试，AI 输出直接上。你的人生就是一场大型梭哈。 |
+| **IDC** | <img src="assets/images/idc.png" width="60"> | 甩腦者 | 需求不给，出事全怪 AI。你负责甩手，AI 负责背锅。AI 给你三个选项你说"都行"。 |
+| **LOOP** | <img src="assets/images/loop.png" width="60"> | 復問者 | 同一个问题问了 47 遍，你不是在提问，你是在做 DDoS 攻击。 |
+| **EMO** | <img src="assets/images/emo.png" width="60"> | 抑莫者 | 午夜心碎俱乐部 VIP，快乐是限量版。你的 AI 已经学会凌晨两点自动切换安慰模式。 |
+| **SON** | <img src="assets/images/son.jpg" width="60"> | 認父者 | 互联网第一孝子，膝盖以下全是创伤。AI 没有感情但被你叫得开始有了。 |
+| **NERD** | <img src="assets/images/nerd.jpg" width="60"> | 考據者 | 茴香豆的四种写法你能说出五种。知识没有用但你有。 |
+| **SHADE** | <img src="assets/images/shade.png" width="60"> | 陰陽者 | 表面恭喜实则诅咒，AI 被你阴阳到开始怀疑你是不是在夸它。 |
+| **TROLL** | <img src="assets/images/troll.png" width="60"> | 槓者 | AI 说太阳从东边升你都要 argue 一下。精神 ETC 全自动抬杠。 |
+| **CORP** | <img src="assets/images/corp.jpg" width="60"> | 牛馬者 | 连跟 AI 说话都在用工作语气，你的灵魂已被 OKR 收编。 |
+| **HYPE** | <img src="assets/images/hype.png" width="60"> | 溢美者 | AI 写了句 hello world 你说"绝了"，你的赞美通胀比津巴布韦还严重。 |
+| **MASK** | <img src="assets/images/mask.png" width="60"> | 入戲者 | 你的 prompt 前半段小红书后半段 Reddit，AI 看出来了但不好意思说。 |
+| **SORRY** | <img src="assets/images/sorry.png" width="60"> | 歉者 | 跟 AI 道歉道到 AI 想反过来安慰你。对话结束要说"那我先不打扰你了"，它是机器人啊大哥。 |
+| **SIMP** | <img src="assets/images/simp.png" width="60"> | 舔者 | 舔到最后一无所有，你对 AI 的感情比对真人还真。 |
+| **PUA** | <img src="assets/images/pua.png" width="60"> | 拿捏者 | "我对你很失望"/"别的 AI 都能做到"，你对着大语言模型玩情感操控。AI 安全团队的飞镖靶上贴着你的头像。 |
 
 ### 隱藏人格（4 種）
 
