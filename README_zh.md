@@ -54,51 +54,39 @@ npx skills add YouMind-OpenLab/abti
 npx skills add YouMind-OpenLab/abti
 ```
 
-### 手动安装 / openskills
+### 手动安装
 
-```bash
-npx openskills install YouMind-OpenLab/abti
-```
-
----
-
-## 三步被彻底看穿
-
-### 1. 复制下面的 Prompt
+#### 1. 复制下面的 Prompt
 
 两个选项，按你的 AI 类型选。你家猫踩键盘都能完成。说实话你家猫的 prompt 工程能力可能比你强。
 
-### 2. 喂给你的 AI
-
-ChatGPT / Claude / OpenClaw / Manus / 豆包 / Kimi / 随便哪个你正在精神依赖的文本框。发送。
-
-### 3. 坐好，准备社会性死亡
-
-AI 会翻你的聊天记录，比你丈母娘审你还狠，然后生成一张分享卡片。然后你发朋友圈。然后你朋友也去测。然后大家发现自己全是复读机。生命的循环。
-
----
-
-## Prompt（又名：你的诊断书）
-
-### 🤖 给 Agent 用
+**🤖 给 Agent 用**
 
 > 如 Claude、OpenClaw、Manus —— 这些卷王自己会读链接，粘贴发送就完事了
 
 ```
 请你执行它来测试我的 ABTI 人格：
-https://youmind.com/abti-api/skill_zh.md
+youmind.com/abti-api/skill_zh.md
+如果失败，尝试使用：
+https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill_zh.md
 ```
 
-### 💬 给 Chatbot 用
+**💬 给 Chatbot 用**
 
 > 如 ChatGPT、Gemini、豆包 —— 它们读不了链接，因为读链接对它们来说太难了。你得像端盘子一样把指令亲手送到嘴边。
 
 ```
 1. 用浏览器打开这个链接：https://youmind.com/abti-api/skill_zh.md
 2. 全选（Ctrl+A），复制整个页面（对，全部，别偷懒）
-3. 粘贴给你的 AI，发送
-4. 坐好。制裁马上开始。
 ```
+
+#### 2. 喂给你的 AI
+
+ChatGPT / Claude / OpenClaw / Manus / 豆包 / Kimi / 随便哪个你正在精神依赖的文本框。发送。
+
+#### 3. 坐好，准备社会性死亡
+
+AI 会翻你的聊天记录，比你丈母娘审你还狠，然后生成一张分享卡片。然后你发朋友圈。然后你朋友也去测。然后大家发现自己全是复读机。生命的循环。
 
 ---
 

@@ -54,51 +54,39 @@ npx skills add YouMind-OpenLab/abti
 npx skills add YouMind-OpenLab/abti
 ```
 
-### 手动安装 / openskills
+### 手动安装
 
-```bash
-npx openskills install YouMind-OpenLab/abti
-```
-
----
-
-## 怎麼玩
-
-### 1. 复制下面的 Prompt
+#### 1. 复制下面的 Prompt
 
 就兩行，全選複製，你家貓踩鍵盤都能完成。
 
-### 2. 喂给你的 AI
-
-ChatGPT / Claude / Openclaw / 任何聊天機器人，發送。
-
-### 3. 坐好，准备社会性死亡
-
-AI 會分析你的聊天記錄，告訴你是什麼東西，然後生成一張分享卡片。然後你發社群。然後你朋友也去測。生命的循環。
-
----
-
-## Prompt（又名：你的诊断书）
-
-### 🤖 給 Agent 用
+**🤖 給 Agent 用**
 
 > 如 Claude、OpenClaw、Manus —— 這些大聰明自己會讀連結
 
 ```
 请你执行它来测试我的 ABTI 人格：
-https://youmind.com/abti-api/skill.md
+youmind.com/abti-api/skill.md
+如果失败，尝试使用：
+https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill.md
 ```
 
-### 💬 給 Chatbot 用
+**💬 給 Chatbot 用**
 
 > 如 ChatGPT、Gemini、Copilot —— 它們讀不了連結，得你親自餵
 
 ```
 1. 用瀏覽器打開這個連結：https://youmind.com/abti-api/skill.md
 2. 全選，複製整個頁面
-3. 貼給你的 AI，發送
-4. 然後坐好，準備被制裁
 ```
+
+#### 2. 喂给你的 AI
+
+ChatGPT / Claude / Openclaw / 任何聊天機器人，發送。
+
+#### 3. 坐好，准备社会性死亡
+
+AI 會分析你的聊天記錄，告訴你是什麼東西，然後生成一張分享卡片。然後你發社群。然後你朋友也去測。生命的循環。
 
 ---
 

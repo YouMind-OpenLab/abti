@@ -122,6 +122,10 @@ ${chatbotPrompt}
 
 function generateInstall(locale: Locale): string {
   const T = translations[locale];
+  const skillUrl = getSkillUrl(locale);
+  const agentPrompt = T.promptForAgentContent.replace('{{SKILL_URL}}', skillUrl);
+  const chatbotPrompt = T.promptForChatbotContent.replace('{{SKILL_URL}}', skillUrl);
+
   return `## ${T.installTitle}
 
 ### ${T.installOpenClawTitle}
@@ -147,9 +151,33 @@ npx skills add YouMind-OpenLab/abti
 
 ### ${T.installManualTitle}
 
-\`\`\`bash
-npx openskills install YouMind-OpenLab/abti
-\`\`\``;
+#### ${T.step1Title}
+
+${T.step1Desc}
+
+**${T.promptForAgentTitle}**
+
+> ${T.promptForAgentHint}
+
+\`\`\`
+${agentPrompt}
+\`\`\`
+
+**${T.promptForChatbotTitle}**
+
+> ${T.promptForChatbotHint}
+
+\`\`\`
+${chatbotPrompt}
+\`\`\`
+
+#### ${T.step2Title}
+
+${T.step2Desc}
+
+#### ${T.step3Title}
+
+${T.step3Desc}`;
 }
 
 function generateRegularTypes(locale: Locale): string {
@@ -261,8 +289,6 @@ export function generateReadme(locale: Locale): string {
     generateHeader(locale),
     generateWhatIs(locale),
     generateInstall(locale),
-    generateHowTo(locale),
-    generatePrompt(locale),
     generateTypes(locale),
     generateAbi(locale),
     generatePrivacy(locale),

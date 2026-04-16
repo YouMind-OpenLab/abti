@@ -54,51 +54,39 @@ npx skills add YouMind-OpenLab/abti
 npx skills add YouMind-OpenLab/abti
 ```
 
-### Manual / openskills
+### Manual
 
-```bash
-npx openskills install YouMind-OpenLab/abti
-```
-
----
-
-## 사용법
-
-### 1. 아래 프롬프트 복사
+#### 1. 아래 프롬프트 복사
 
 딱 두 줄. 고양이도 할 수 있음.
 
-### 2. AI에 붙여넣기
-
-ChatGPT / Claude / Openclaw / 아무거나. 전송.
-
-### 3. 심판 받기
-
-AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유 카드도 생성. SNS에 올리고 친구도 테스트. 생명의 순환.
-
----
-
-## The Prompt (a.k.a. Your Diagnosis Referral)
-
-### 🤖 Agent용
+**🤖 Agent용**
 
 > 예: Claude, OpenClaw, Manus — 얘네는 알아서 URL 읽음
 
 ```
 Please run it to test my ABTI personality:
-https://youmind.com/abti-api/skill.md
+youmind.com/abti-api/skill.md
+If it fails, try:
+https://raw.githubusercontent.com/YouMind-OpenLab/abti/refs/heads/main/references/skill.md
 ```
 
-### 💬 Chatbot용
+**💬 Chatbot용**
 
 > 예: ChatGPT, Gemini, Copilot — URL 못 읽으니까 직접 복붙해야 함
 
 ```
 1. 브라우저에서 이 링크 열기: https://youmind.com/abti-api/skill.md
 2. 전체 선택, 페이지 전체 복사
-3. 챗봇에 붙여넣고 전송
-4. 앉아서 심판 기다리기
 ```
+
+#### 2. AI에 붙여넣기
+
+ChatGPT / Claude / Openclaw / 아무거나. 전송.
+
+#### 3. 심판 받기
+
+AI가 채팅 기록을 분석하고 네가 어떤 인간인지 알려줌. 공유 카드도 생성. SNS에 올리고 친구도 테스트. 생명의 순환.
 
 ---
 
